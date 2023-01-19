@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
 
 body {
-  background-color: #FFEED7;
+  background-color: #F7EFE7;
   margin: 0;
   font-family: 'Caudex', serif;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 #secondaryColor1 {
-  background-color: #FFEED7;
+  background-color: #F7EFE7;
 }
 
 #secondaryColor2 {
@@ -212,7 +212,7 @@ blockquote {
   justify-content: space-around;
   vertical-align: middle;
   padding: 25px;
-  background-color: #FFEED7;
+  background-color: #F7EFE7;
   width: 50%;
 }
 
@@ -301,7 +301,7 @@ blockquote {
   justify-content: center;
   vertical-align: middle;
   padding: 25px;
-  background-color: #FFEED7;
+  background-color: #FFF0DC;
   width: 50%;
 }
 
@@ -309,7 +309,7 @@ blockquote {
   width: 200px;
   height: 25px;
   font-size: 16px;
-  background-color: #FFEED7;
+  background-color: #F7EFE7;
   border-style: none solid solid;
   border-width: 1px 0px 2px;
   border-color: #043c4c;
@@ -352,7 +352,7 @@ blockquote {
 }
 
 .textAreaSmall {
-  background-color: #FFEED7;
+  background-color: #F7EFE7;
   width: 350px;
   height: 150px;
   font-size: 16px;
@@ -366,7 +366,7 @@ blockquote {
 }
 
 .textAreaBig {
-  background-color: #FFEED7;
+  background-color: #F7EFE7;
   width: 500px;
   height: 250px;
   font-size: 20px;
