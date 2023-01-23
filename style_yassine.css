@@ -1,9 +1,10 @@
 @import url("https://fonts.cdnfonts.com/css/nexa-bold");
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
 
 body {
   background-color: white;
   margin: 0;
-  font-family: "Nexa", sans-serif;
+  font-family: 'Caudex', serif;
 }
 
 .wrapper {
@@ -491,4 +492,27 @@ caption {
   flex-direction:column; 
   margin-top: 2%;
   align-items: center;
+}
+
+#infoWrapper {
+  width: 50%;
+  display: flex;
+  flex-direction:row; 
+  margin-top: 2%;
+  background-color: green;
+  align-items:center;
+  width: 80%;
+}
+
+.bigInfo {
+  margin-left: 2%;
+  flex: 2;
+  background-color: blue;
+}
+.smallInfo {
+  flex: 1;
+  background-color: red;
+}
+.smallInfo {
+  flex: 1;
 }
