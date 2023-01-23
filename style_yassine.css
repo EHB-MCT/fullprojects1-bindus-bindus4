@@ -1,7 +1,7 @@
 @import url("https://fonts.cdnfonts.com/css/nexa-bold");
 
 body {
-  background-color: whitesmoke;
+  background-color: white;
   margin: 0;
   font-family: "Nexa", sans-serif;
 }
@@ -465,13 +465,30 @@ caption {
   margin-left: 1%;
 }
 
-.titleBlock {
+.fancyFrame {
   margin-top: 5%;
-  width: 40%;
-  padding-bottom: 2%;
-  margin-left: -7%;
-  padding: 0 2% 2% 2%;
-  background-color: #043c4c;
-  border-radius: 15px;
+  width: 70%;
+  padding: 1%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
 }
 
+.mask1 {
+  -webkit-mask-image: url(/assets/images/fancyMaskImage.png);
+  mask-image: url(/assets/images/fancyMaskImage.png);
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;    
+}
+
+#afspraakWrapper {
+  width: 50%;
+  display: flex;
+  flex-direction:column; 
+  margin-top: 2%;
+  align-items: center;
+}
