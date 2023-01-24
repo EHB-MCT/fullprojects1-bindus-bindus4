@@ -143,6 +143,10 @@ body {
 
 .heading6 {
   font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 0;
+
 }
 
 .paragraph {
@@ -251,6 +255,7 @@ blockquote {
   padding: 25px 35px;
   border-radius: 5px;
   margin: 2px 10px;
+  border: none;
   text-decoration: none;
   color: #b7dcdb;
   font-size: 20px;
@@ -267,7 +272,7 @@ blockquote {
   border-radius: 5px;
   margin: 2px 10px;
   text-decoration: none;
-  color: #b7dcdb;
+  color: white;
   font-size: 30px;
   font-weight: 700;
   display: flex;
@@ -282,7 +287,7 @@ blockquote {
 .roundedMedium:hover,
 .roundedBig:hover {
   background-color: #b7dcdb;
-  color: #b7dcdb;
+  color: white;
 }
 
 .roundedSmall,
@@ -293,7 +298,7 @@ blockquote {
 
 .socialMedia {
   padding: 20px;
-  background-color: #043c4c;
+  background-color: #b7dcdb;
   border-radius: 100%;
   width: 25px;
   height: 25px;
@@ -570,6 +575,7 @@ padding-right: 1%;
   text-align: center;
 }
 .bereikWrapper img {
+  width: 20%;
 padding-left: 41%;
 }
 .bereikWrapper p {
@@ -583,7 +589,8 @@ padding-left: 41%;
   
 }
 #werking a {
-margin-top: 5%;
+margin-top: 2%;
+margin-bottom: 2%;
   color: white;
   width: 400px;
   font-weight: 300;
@@ -600,4 +607,57 @@ margin-top: 5%;
   text-align: center;
   display: flex;
   justify-content: space-between;
+}
+
+#circleBg {
+  background-color: #043c4c;
+  width: 100px;
+  height: 100px;
+  border: 100%;
+}
+
+.logo{
+  width: 10%;
+  height: 10%;
+  margin: 1% 0;
+  background-color: #043c4c;
+}
+footer {
+  background-color: #043c4c;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+}
+
+.partnersInnerWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 220px;
+  background-color: #04838b;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.partnersList {
+  width: 100px;
+  margin: 5px 5px;
+}
+
+.partnersWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.socialMediaWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactWrapper p{
+color: white;
 }
