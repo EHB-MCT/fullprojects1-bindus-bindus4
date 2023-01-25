@@ -12,7 +12,66 @@
     <!--javascript code-->
     <script>
       "use strict";
-      function vormingen() {}
+      function showMoreInfo(select) {
+        switch (select) {
+          case 0:
+            if (document.getElementById("begeleidingId").style.display == "none") {
+              document.getElementById("begeleidingId").style.display = "flex";
+              document.getElementById("vormingenId").style.display = "none";
+              document.getElementById("extrasId").style.display = "none";
+              document.getElementById("partnersId").style.display = "none";
+              document.getElementById("placeholder").style.width = 0;
+
+            } else {
+              document.getElementById("begeleidingId").style.display = "none";
+              document.getElementById("placeholder").style.width = "90%";
+
+            }
+            break;
+          case 1:
+            if (document.getElementById("vormingenId").style.display == "none") {
+              document.getElementById("vormingenId").style.display = "flex";
+              document.getElementById("begeleidingId").style.display = "none";
+              document.getElementById("extrasId").style.display = "none";
+              document.getElementById("partnersId").style.display = "none";
+              document.getElementById("placeholder").style.width = 0;
+
+
+            } else {
+              document.getElementById("vormingenId").style.display = "none";
+              document.getElementById("placeholder").style.width = "90%";
+
+            }
+            break;
+            case 2:
+            if (document.getElementById("partnersId").style.display == "none") {
+              document.getElementById("partnersId").style.display = "flex";
+              document.getElementById("vormingenId").style.display = "none";
+              document.getElementById("begeleidingId").style.display = "none";
+              document.getElementById("extrasId").style.display = "none";
+              document.getElementById("placeholder").style.width = 0;
+
+
+            } else {
+              document.getElementById("partnersId").style.display = "none";
+              document.getElementById("placeholder").style.width = "90%";
+
+            }
+            break;
+          case 3:
+            if (document.getElementById("extrasId").style.display == "none") {
+              document.getElementById("extrasId").style.display = "flex";
+              document.getElementById("vormingenId").style.display = "none";
+              document.getElementById("begeleidingId").style.display = "none";
+              document.getElementById("partnersId").style.display = "none";
+              document.getElementById("placeholder").style.width = 0;
+            } else {
+              document.getElementById("extrasId").style.display = "none";
+              document.getElementById("placeholder").style.width = "90%";
+            }
+            break;
+        }
+      }
 
       function isInViewport(element) {
         const rect = element.getBoundingClientRect();
@@ -31,6 +90,31 @@
     <div class="wrapper">
       <!--navigation-->
       <header>
+
+        <div class="Leftside">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#over">Wie is bindus?</a></li>
+                    <li><a href="#methode">Methode</a></li>
+                    <li><a href="aanbod.html">Ons aanbod</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="Rightside">
+            <nav>
+            <ul>
+                <li><a href="Partners.html">Partners</a></li>
+                <li><a href="bindusWorks.html">BindusWorks</a></li>
+                <li><a href="#blog">Bindus Blogt</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div class="Navafbeelding"><a href='index.html'> <img src="assets/images/Logo.png"></a></div>
+      <!-- <header>
         <div>
           <a href="index.html">Home</a>
         </div>
@@ -54,14 +138,14 @@
         <div>
           <a href="index.html">Vacatures</a>
         </div>
-      </header>
-      <!--Log in button-->
-      <a
-        id="aanmelden"
-        class="roundedSmall"
-        href="https://bindus.axoclub.be/edesk"
-        >aanmelden</a
-      >
+        <!--Log in button
+        <a
+          id="aanmelden"
+          class="roundedSmall"
+          href="https://bindus.axoclub.be/edesk"
+          >aanmelden</a
+        >
+      </header> -->
       <!--welcoming picture-->
       <div class="fancyFrame">
         <img
@@ -70,7 +154,7 @@
           alt="vormingsaanbod"
         />
         <div id="afspraakWrapper">
-          <a href="#" class="roundedMedium"
+          <a href="mailto: ytazi06@gmail.com" type="" class="roundedMedium"
             >Maak een afspraak! <img src="/assets/images/buttonArrow.png"
           /></a>
         </div>
@@ -132,35 +216,72 @@
       <div id="werkingOuterWrapper">
         <div id="werking">
           <h1 class="heading2">Onze werking</h1>
-          <a id="begeleiding" class="roundedMedium">
+          <a id="begeleiding" class="roundedMedium" onclick="showMoreInfo(0)">
             <div class="buttonsWrapper">
               Begeleiding naar werk of opleiding
               <img src="/assets/images/buttonArrow.png" />
             </div>
           </a>
-          <a class="roundedMedium" onclick="vormingen()">
+          <a class="roundedMedium" onclick="showMoreInfo(1)">
             <div class="buttonsWrapper">
               Vormingen
               <img src="/assets/images/buttonArrow.png" />
             </div>
           </a>
-          <a class="roundedMedium" onclick="partners()">
+          <a class="roundedMedium" onclick="showMoreInfo(2)">
             <div class="buttonsWrapper">
               Partners
               <img src="/assets/images/buttonArrow.png" />
             </div>
           </a>
-          <a class="roundedMedium" onclick="extras()">
+          <a class="roundedMedium" onclick="showMoreInfo(3)">
             <div class="buttonsWrapper">
               Extra's
               <img src="/assets/images/buttonArrow.png" />
             </div>
           </a>
         </div>
+        <!--===================knoppen om meer te lezen over begeleidingen, vormingen, partners of extras=========================-->
+        <!--========================= placeholder voor de tekst die komt wanneer je op de knop klikt (zonder de placeholder verspringt de pagina)==============================================-->
+        <div class="subtitleBlock" id="placeholder" style="display: flex;">
+          <span id="placeholderSpan">
+            <p class="heading3">Begeleiding</p>
+            <p class="bodySmall" style="text-align: justify">
+              Bij Bindus Works staan individuele begeleidingen van werkzoekenden
+              centraal. Ben jij op zoek naar werk of een opleiding, maar weet je
+              niet goed hoe je met dit proces start? Check: wij zijn er voor je!
+              Zo kunnen wij je niet alleen helpen bij het aanleren van
+              ontbrekende competenties die je nodig hebt op de arbeidsmarkt,
+              maar kunnen wij jou ook alles aanleren rond solliciteren. Denk
+              maar aan een cv of motivatiebrief helpen opstellen of zelfs een
+              sollicitatiegesprek oefenen: wij staan van A tot Z voor jou klaar!
+              Daarnaast helpen wij je ook effectief met werk of een opleiding
+              zoeken. We gaan op zoek naar vacatures of opleidingen, leggen de
+              eerste contacten voor jou op de arbeidsmarkt of bij scholen en
+              helpen je bij je communicatie naar werkgevers, bedrijven en
+              scholen toe. Vergeet niet, tijdens deze begeleidingen sta JIJ
+              centraal: wat wil je en wat doe je graag? We gaan persoonlijk en
+              op maat op zoek naar de ideale job of opleiding voor jou!
+            </p>
+            <p style="margin-bottom: 0; margin-left: 5px">In het kort:</p>
+            <ul style="margin-top: 0">
+              <li>Individuele begeleiding</li>
+              <li>Oriëntatie- en competentietest</li>
+              <li>Coaching bij onvoldoende/ontbrekende competenties</li>
+              <li>Alles aanleren rond solliciteren</li>
+              <li>Hulp bij het vinden van werk/opleiding</li>
+              <li>
+                Begeleiding bij eerste contacten met bedrijven en werkgevers
+              </li>
+              <li>Nazorg</li>
+            </ul>
+          </span>
+        </div>
+
         <!--Begeleiding-->
         <div class="subtitleBlock" id="begeleidingId">
           <span class="begeleidingClass">
-            <h1 class="heading3">Begeleiding</h1>
+            <p class="heading3">Begeleiding</p>
             <p class="bodySmall" style="text-align: justify">
               Bij Bindus Works staan individuele begeleidingen van werkzoekenden
               centraal. Ben jij op zoek naar werk of een opleiding, maar weet je
@@ -195,7 +316,7 @@
         <!--vormingen-->
         <div class="subtitleBlock" id="vormingenId">
           <span class="vormingenClass">
-            <h1 class="heading3">Vormingen</h1>
+            <p class="heading3">Vormingen</p>
             <p class="bodySmall" style="text-align: justify">
               Bindus Works biedt ook specifieke vormingen aan voor
               werkzoekenden. Zo gaan wij in 2021 weer verschillende
@@ -226,10 +347,10 @@
             </ul>
           </span>
         </div>
-        <!--vormingen-->
+        <!--partners-->
         <div class="subtitleBlock" id="partnersId">
           <span class="partnersClass">
-            <h1 class="heading3">Vormingen</h1>
+            <h1 class="heading3">Partners</h1>
             <p class="bodySmall" style="text-align: justify">
               Bindus Works omringt zich ook met sterke partners. Wij werken
               samen met zowel Manpower, als YouthStart om je nog beter te
@@ -245,7 +366,9 @@
               dromen na te jagen. Van werken aan je IT vaardigheden tot leren
               presenteren, het staat allemaal op de menu.
             </p>
-            <p style="margin-bottom: 0; margin-left: 5px">Onze Partners</p>
+            <p class="heading3" style="margin-bottom: 0; margin-left: 5px">
+              Onze Partners
+            </p>
             <ul style="margin-top: 0">
               <div class="partnersExampleWrapper">
                 <img
@@ -262,7 +385,29 @@
             </ul>
           </span>
         </div>
+        <!--Extras-->
+        <div class="subtitleBlock" id="extrasId">
+          <span class="extrasClass">
+            <h1 class="heading3">Extra's</h1>
+            <p class="bodySmall" style="text-align: justify">
+              Bindus Works is er ook om hulp te bieden bij jouw administratieve
+              vragen, zoals hulp bij omschakeling van buitenlands diploma of
+              rijbewijs. Eigenlijk ben je met al jouw vragen bij ons welkom! Heb
+              je bovendien zin om je eigen onderneming op te starten? Ook daar
+              kunnen we je bij helpen!
+            </p>
+            <p style="margin-bottom: 0; margin-left: 5px">In het kort:</p>
+            <ul style="margin-top: 0">
+              <li>Administratieve hulp</li>
+              <li>Rechten en plichten van de werkzoekenden</li>
+              <li>Andere hulpvragen</li>
+              <li>Hulp bij opstarten van eigen onderneming</li>
+            </ul>
+          </span>
+        </div>
       </div>
+
+      <!--===================================einde knoppen om meer te weten over begeleiding, enzo.=================================================================-->
       <footer>
         <img class="logo" src="/assets/images/Logo.png" />
         <div class="partnersWrapper">
