@@ -474,7 +474,7 @@ header img {
 
 #aanmelden {
   margin-left: 80%;
-  margin-top: 9%;
+  margin-top: -3%;
 }
 
 caption {
@@ -697,8 +697,11 @@ footer {
 }
 
 #begeleidingId,
-#vormingenId {
+#vormingenId,
+#partnersId,
+#extrasId {
   display: none;
+  padding: 2% 3%;
 }
 
 .partnersExample {

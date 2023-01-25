@@ -12,7 +12,27 @@
     <!--javascript code-->
     <script>
       "use strict";
-      function vormingen() {}
+      function showMoreInfo(select) {
+        switch (select){
+          case 0:
+            if(document.getElementById("begeleidingId").style.display=="none"){
+          document.getElementById("begeleidingId").style.display ="flex";
+        } else {
+          document.getElementById("begeleidingId").style.display ="none";
+
+        }
+        case 1:
+            if(document.getElementById("vormingenId").style.display=="none"){
+          document.getElementById("vormingenId").style.display ="flex";
+
+
+        } else {
+          document.getElementById("vormingenId").style.display ="none";
+
+
+        }
+        }
+      }
 
       function isInViewport(element) {
         const rect = element.getBoundingClientRect();
@@ -54,14 +74,15 @@
         <div>
           <a href="index.html">Vacatures</a>
         </div>
-      </header>
-      <!--Log in button-->
+              <!--Log in button-->
       <a
-        id="aanmelden"
-        class="roundedSmall"
-        href="https://bindus.axoclub.be/edesk"
-        >aanmelden</a
-      >
+      id="aanmelden"
+      class="roundedSmall"
+      href="https://bindus.axoclub.be/edesk"
+      >aanmelden</a
+    >
+
+      </header>
       <!--welcoming picture-->
       <div class="fancyFrame">
         <img
@@ -132,35 +153,36 @@
       <div id="werkingOuterWrapper">
         <div id="werking">
           <h1 class="heading2">Onze werking</h1>
-          <a id="begeleiding" class="roundedMedium">
+          <a id="begeleiding" class="roundedMedium" onclick="showMoreInfo(0)">
             <div class="buttonsWrapper">
               Begeleiding naar werk of opleiding
               <img src="/assets/images/buttonArrow.png" />
             </div>
           </a>
-          <a class="roundedMedium" onclick="vormingen()">
+          <a class="roundedMedium" onclick="showMoreInfo(1)">
             <div class="buttonsWrapper">
               Vormingen
               <img src="/assets/images/buttonArrow.png" />
             </div>
           </a>
-          <a class="roundedMedium" onclick="partners()">
+          <a class="roundedMedium" onclick="showMoreInfo(2)">
             <div class="buttonsWrapper">
               Partners
               <img src="/assets/images/buttonArrow.png" />
             </div>
           </a>
-          <a class="roundedMedium" onclick="extras()">
+          <a class="roundedMedium" onclick="showMoreInfo(3)">
             <div class="buttonsWrapper">
               Extra's
               <img src="/assets/images/buttonArrow.png" />
             </div>
           </a>
         </div>
+        <!--===================knoppen om meer te lezen over begeleidingen, vormingen, partners of extras=========================-->
         <!--Begeleiding-->
         <div class="subtitleBlock" id="begeleidingId">
           <span class="begeleidingClass">
-            <h1 class="heading3">Begeleiding</h1>
+            <p class="heading3">Begeleiding</p>
             <p class="bodySmall" style="text-align: justify">
               Bij Bindus Works staan individuele begeleidingen van werkzoekenden
               centraal. Ben jij op zoek naar werk of een opleiding, maar weet je
@@ -195,7 +217,7 @@
         <!--vormingen-->
         <div class="subtitleBlock" id="vormingenId">
           <span class="vormingenClass">
-            <h1 class="heading3">Vormingen</h1>
+            <p class="heading3">Vormingen</p>
             <p class="bodySmall" style="text-align: justify">
               Bindus Works biedt ook specifieke vormingen aan voor
               werkzoekenden. Zo gaan wij in 2021 weer verschillende
@@ -226,10 +248,10 @@
             </ul>
           </span>
         </div>
-        <!--vormingen-->
+        <!--partners-->
         <div class="subtitleBlock" id="partnersId">
           <span class="partnersClass">
-            <h1 class="heading3">Vormingen</h1>
+            <h1 class="heading3">Partners</h1>
             <p class="bodySmall" style="text-align: justify">
               Bindus Works omringt zich ook met sterke partners. Wij werken
               samen met zowel Manpower, als YouthStart om je nog beter te
@@ -245,7 +267,9 @@
               dromen na te jagen. Van werken aan je IT vaardigheden tot leren
               presenteren, het staat allemaal op de menu.
             </p>
-            <p style="margin-bottom: 0; margin-left: 5px">Onze Partners</p>
+            <p class="heading3" style="margin-bottom: 0; margin-left: 5px">
+              Onze Partners
+            </p>
             <ul style="margin-top: 0">
               <div class="partnersExampleWrapper">
                 <img
@@ -262,7 +286,28 @@
             </ul>
           </span>
         </div>
+        <!--Extras-->
+        <div class="subtitleBlock" id="extrasId">
+          <span class="extrasClass">
+            <h1 class="heading3">Extra's</h1>
+            <p class="bodySmall" style="text-align: justify">
+              Bindus Works is er ook om hulp te bieden bij jouw administratieve
+              vragen, zoals hulp bij omschakeling van buitenlands diploma of
+              rijbewijs. Eigenlijk ben je met al jouw vragen bij ons welkom! Heb
+              je bovendien zin om je eigen onderneming op te starten? Ook daar
+              kunnen we je bij helpen!
+            </p>
+            <p style="margin-bottom: 0; margin-left: 5px">In het kort:</p>
+            <ul style="margin-top: 0">
+              <li>Administratieve hulp</li>
+              <li>Rechten en plichten van de werkzoekenden</li>
+              <li>Andere hulpvragen</li>
+              <li>Hulp bij opstarten van eigen onderneming</li>
+            </ul>
+          </span>
+        </div>
       </div>
+      <!--===================================einde knoppen om meer te weten over begeleiding, enzo.=================================================================-->
       <footer>
         <img class="logo" src="/assets/images/Logo.png" />
         <div class="partnersWrapper">
