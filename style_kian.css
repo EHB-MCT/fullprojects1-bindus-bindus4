@@ -16,7 +16,7 @@ body {
 .missie {
     width: 100%;
     height: 100px;
-    background-color:#b7dcdb;
+    background-color: #b7dcdb;
     margin-top: 200px;
 
 }
@@ -42,7 +42,7 @@ body {
 .impact {
     width: 100%;
     height: 80px;
-    background-color:#b7dcdb;
+    background-color: #b7dcdb;
 
 }
 
@@ -65,7 +65,7 @@ body {
 .nieuwsbrief {
     width: 100%;
     height: 80px;
-    background-color:#b7dcdb;
+    background-color: #b7dcdb;
 
 }
 
@@ -81,7 +81,7 @@ body {
 
     width: 100%;
     height: 500px;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
 
 .banner {
@@ -584,10 +584,6 @@ caption {
     border-radius: 15px;
 }
 
-    {
-    box-sizing: border-box
-}
-
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
@@ -682,4 +678,112 @@ caption {
     to {
         opacity: 1
     }
+}
+
+.wasdraad {
+
+    background-color: red;
+
+}
+
+.rij1 {
+    margin-top: -10px;
+    width: 100%;
+    height: 250px;
+    background-color: lime;
+
+
+}
+
+.missie {
+    float: left;
+    margin-top: -1px;
+    position: relative;
+}
+
+
+
+.een {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+.twee {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-right: 100px;
+
+}
+
+.drie {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    margin-right: 100px;
+
+
+}
+
+.vier {
+
+    width: 250px;
+    height: 250px;
+    background-color: tan;
+
+
+}
+
+.rij2 {
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+
+}
+
+.visie {
+    float: left;
+    margin-top: -1px;
+    position: relative;
+}
+
+.vijf {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+.zes {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-right: 100px;
+
+}
+
+.zeven {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    margin-right: 100px;
+
+
+}
+
+.acht {
+
+    width: 250px;
+    height: 250px;
+    background-color: tan;
+
+
 }

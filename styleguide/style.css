@@ -12,6 +12,7 @@ body {
   width: 100%;
   align-items: center;
 }
+
 .titleBlock {
   margin-top: 2%;
   width: 98%;
@@ -20,11 +21,13 @@ body {
   background-color: #FFF;
   border-radius: 15px;
 }
+
 .titleBlock h1 {
   color: #212020;
   margin-left: 3%;
   margin-top: 2%;
 }
+
 .innerWrapper {
   flex-wrap: wrap;
   display: flex;
@@ -34,12 +37,14 @@ body {
   width: 100%;
   margin-right: 40%;
 }
+
 .colorCard {
   margin-left: 5%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 .colorCard div {
   height: 200px;
   width: 200px;
@@ -58,6 +63,7 @@ body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 .colorCard p {
   font-size: 15px;
   background-color: #EFEFEF;
@@ -71,6 +77,7 @@ body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 #primaryColor {
   background-color: #CE483B;
 }
@@ -82,8 +89,9 @@ body {
 #secondaryColor2 {
   background-color: #BD5C6B;
 }
+
 #tertiaryColor1 {
- background-color: #F7D59F; 
+  background-color: #F7D59F;
 }
 
 #tertiaryColor2 {
@@ -97,10 +105,12 @@ body {
   padding-left: 5%;
   flex: 1;
 }
+
 .fontSectionName h3 {
   font-size: 40px;
   margin-bottom: 0;
 }
+
 .fontSectionExample {
   text-align: center;
   justify-content: center;
@@ -117,9 +127,11 @@ body {
 .fontSectionExample h2 {
   font-size: 45px;
 }
+
 .fontSectionExample h3 {
   font-size: 35px;
 }
+
 .fontSectionExample h4 {
   font-size: 30px;
 }
@@ -131,6 +143,7 @@ body {
 .fontSectionExample h6 {
   font-size: 20px;
 }
+
 .fontSectionExample p {
   font-size: 18px;
   margin-left: 20%;
@@ -181,6 +194,7 @@ blockquote {
   margin-top: 2%;
   margin-bottom: 1%;
 }
+
 .subtitleBlock h1 {
   color: #000;
   text-align: center;
@@ -245,6 +259,7 @@ blockquote {
   align-items: center;
   height: 20%;
 }
+
 .basicBig,
 .roundedBig {
   background-color: #CE483B;
@@ -284,6 +299,7 @@ blockquote {
   height: 25px;
   margin: 15px;
 }
+
 .socialMedia img {
   width: 100%;
 }
@@ -305,7 +321,8 @@ blockquote {
   width: 50%;
 }
 
-.basicInputSmall, .basicInputBig {
+.basicInputSmall,
+.basicInputBig {
   width: 200px;
   height: 25px;
   font-size: 16px;
@@ -329,13 +346,15 @@ blockquote {
   height: 30px;
 }
 
-.basicInputWrapper, .basicInputWrapperBig {
+.basicInputWrapper,
+.basicInputWrapperBig {
   margin-left: 5%;
   margin-top: 3%;
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
 }
+
 .basicInputWrapper p {
   text-align: left;
   padding: 0;
@@ -343,7 +362,8 @@ blockquote {
   font-weight: 700;
   font-size: 16px;
 }
-.basicInputWrapperBig p { 
+
+.basicInputWrapperBig p {
   text-align: left;
   padding: 0;
   margin: 0;
@@ -384,12 +404,14 @@ blockquote {
   margin-top: 3%;
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
 }
-.textAreaWrapperBig p { 
+
+.textAreaWrapperBig p {
   text-align: left;
   padding: 0;
   margin: 0;
   font-weight: 700;
   font-size: 20px;
 }
+
