@@ -1,10 +1,10 @@
 @import url("https://fonts.cdnfonts.com/css/nexa-bold");
-@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
 
 body {
   background-color: white;
   margin: 0;
-  font-family: 'Caudex', serif;
+  font-family: "Caudex", serif;
 }
 
 .wrapper {
@@ -146,7 +146,6 @@ body {
   color: white;
   font-weight: 500;
   margin-bottom: 0;
-
 }
 
 .paragraph {
@@ -178,12 +177,12 @@ blockquote {
 .bodyRegular {
   font-weight: 300;
   font-size: 21px;
-  text-align: justify;
 }
 
 .bodySmall {
   font-weight: 300;
   font-size: 16px;
+  text-align: left;
 }
 
 .subtitleBlock {
@@ -191,12 +190,13 @@ blockquote {
   color: #b7dcdb;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 10px;
   width: 90%;
   margin-left: 5%;
   margin-top: 2%;
   margin-bottom: 1%;
+  text-align: left;
 }
 
 .subtitleBlock h1 {
@@ -424,13 +424,13 @@ header {
   background-color: #b8dcdb;
   width: 100%;
   display: flex;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   vertical-align: middle;
   padding: 2% 0;
 }
-header div{
+header div {
   width: 15%;
   display: flex;
   justify-content: center;
@@ -448,10 +448,10 @@ header div a {
 }
 
 header img {
-background-color: #b7dcdb;
-padding: 5%;
-border-radius: 100%;
-width: 100%;
+  background-color: #b7dcdb;
+  padding: 5%;
+  border-radius: 100%;
+  width: 100%;
 }
 
 .navbar {
@@ -504,13 +504,13 @@ caption {
   -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;    
+  mask-repeat: no-repeat;
 }
 
 #afspraakWrapper {
   width: 50%;
   display: flex;
-  flex-direction:column; 
+  flex-direction: column;
   margin-top: 2%;
   align-items: center;
 }
@@ -518,9 +518,9 @@ caption {
 .infoWrapper {
   width: 50%;
   display: flex;
-  flex-direction:row; 
+  flex-direction: row;
   margin-top: 2%;
-  align-items:center;
+  align-items: center;
   width: 80%;
 }
 
@@ -538,7 +538,7 @@ caption {
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .requirementsInnerWrapper {
@@ -548,33 +548,32 @@ flex-wrap: wrap;
   flex-direction: row;
   text-align: left;
   flex-wrap: no-wrap;
-
 }
-.requirementsInnerWrapper p{
+.requirementsInnerWrapper p {
   width: 100%;
   padding-top: 8%;
-  vertical-align:middle;
+  vertical-align: middle;
   text-align: left;
 }
-.requirementsInnerWrapper img{
-width: 80px;
-height: 80px;
-padding-right: 1%;
+.requirementsInnerWrapper img {
+  width: 80px;
+  height: 80px;
+  padding-right: 1%;
 }
 
-.requirementsInnerWrapper #longParagraph{
+.requirementsInnerWrapper #longParagraph {
   width: 100%;
   padding-top: 0;
-  vertical-align:middle;
+  vertical-align: middle;
   text-align: left;
 }
 
 .bereikWrapper {
   width: 50%;
   display: flex;
-  flex-direction:row; 
+  flex-direction: row;
   margin-top: 2%;
-  align-items:center;
+  align-items: center;
   width: 80%;
 }
 
@@ -593,7 +592,7 @@ padding-right: 1%;
 }
 .bereikWrapper img {
   width: 20%;
-padding-left: 41%;
+  padding-left: 41%;
 }
 .bereikWrapper p {
   font-weight: bold;
@@ -603,11 +602,10 @@ padding-left: 41%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
 }
 #werking a {
-margin-top: 2%;
-margin-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   color: white;
   width: 400px;
   font-weight: 300;
@@ -617,7 +615,14 @@ margin-bottom: 2%;
 
 .roundedMedium img {
   width: 10%;
-  
+}
+.roundedMedium {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.basicBig img {
+  width: 20%;
 }
 
 .buttonsWrapper {
@@ -633,7 +638,7 @@ margin-bottom: 2%;
   border: 100%;
 }
 
-.logo{
+.logo {
   width: 10%;
   height: 10%;
   margin: 1% 0;
@@ -675,6 +680,38 @@ footer {
   align-items: center;
 }
 
-.contactWrapper p{
-color: white;
+.contactWrapper p {
+  color: white;
+}
+
+#werkingOuterWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+
+.subtitleBlock {
+  padding: 25px;
+  text-align: justify;
+}
+
+#begeleidingId,
+#vormingenId {
+  display: none;
+}
+
+.partnersExample {
+  width: 100%;
+}
+
+.partnersExampleWrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 15px;
+  width: 50%;
+  height: 50%;
 }
