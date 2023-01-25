@@ -1,9 +1,9 @@
-@import url("https://fonts.cdnfonts.com/css/nexa-bold");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
 
 body {
     background-color: whitesmoke;
     margin: 0;
-    font-family: "Nexa", sans-serif;
+    font-family: "Caudex", serif;
 }
 
 img {
@@ -175,4 +175,16 @@ header div.Rightside nav ul li a {
     grid-row: 5/10;
     border-width: 5px;
     background-color: rgb(209, 209, 209);
+}
+
+.socius {
+    grid-column: 5/8;
+    grid-row: 5/9;
+    border-width: 5px;
+    background-color: rgb(209, 209, 209);
+}
+.socius img {
+    grid-column: 6/7;
+    grid-row: 5/7;
+width: 70%;
 }
