@@ -35,7 +35,7 @@ img {
     opacity: 1;
 }
 
-.Navafbeelding{
+.Navafbeelding {
     top: 0px;
     height: 75px;
     width: 15.5%;
@@ -45,23 +45,23 @@ img {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(40, minmax(10px, 20px));
     position: fixed;
-    background-color: red;
+    background-color: #b8dcdb;
+    margin-top: -280px;
+    border-radius: 80%;
+    padding-bottom: 300px;
 }
 
 .Navafbeelding a {
     grid-column: 6/8;
     grid-row: 1/6;
-    
-    background-color: red;
-    
 }
 
-.Navafbeelding a img{
+.Navafbeelding a img {
     grid-column: 6/8;
     grid-row: 2/2;
     margin-left: -20px;
     width: 200%;
-    background-color: #b8dcdb;
+    margin-top: 290px;
 }
 
 header {
@@ -135,4 +135,38 @@ header div.Rightside nav ul li a {
     margin-left: 20px;
     margin-right: 20px;
 
+}
+
+.Partners-text {
+    width: 100%;
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(35, minmax(10px, 20px));
+    background-color: red;
+}
+
+.Partners-text h1 {
+    grid-column: 1/13;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.Partners-text img{
+    grid-column: 2/12;
+    grid-row: 7/9;
+}
+
+.Brussel {
+    width: 100%;
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(35, minmax(10px, 20px));
+    background-color: blue;
+}
+
+.Brussel h2{
+    grid-column: 3/5;
+    font-size: 40px;
 }
