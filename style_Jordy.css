@@ -162,10 +162,17 @@ header div.Rightside nav ul li a {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(35, minmax(10px, 20px));
-    background-color: blue;
+    
 }
 
 .Brussel h2{
     grid-column: 3/5;
     font-size: 40px;
+}
+
+.Koning-Boudewijn {
+    grid-column: 3/5;
+    grid-row: 5/10;
+    border-width: 5px;
+    background-color: rgb(209, 209, 209);
 }
