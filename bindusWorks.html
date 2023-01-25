@@ -13,24 +13,63 @@
     <script>
       "use strict";
       function showMoreInfo(select) {
-        switch (select){
+        switch (select) {
           case 0:
-            if(document.getElementById("begeleidingId").style.display=="none"){
-          document.getElementById("begeleidingId").style.display ="flex";
-        } else {
-          document.getElementById("begeleidingId").style.display ="none";
+            if (document.getElementById("begeleidingId").style.display == "none") {
+              document.getElementById("begeleidingId").style.display = "flex";
+              document.getElementById("vormingenId").style.display = "none";
+              document.getElementById("extrasId").style.display = "none";
+              document.getElementById("partnersId").style.display = "none";
+              document.getElementById("placeholder").style.width = 0;
 
-        }
-        case 1:
-            if(document.getElementById("vormingenId").style.display=="none"){
-          document.getElementById("vormingenId").style.display ="flex";
+            } else {
+              document.getElementById("begeleidingId").style.display = "none";
+              document.getElementById("placeholder").style.width = "90%";
+
+            }
+            break;
+          case 1:
+            if (document.getElementById("vormingenId").style.display == "none") {
+              document.getElementById("vormingenId").style.display = "flex";
+              document.getElementById("begeleidingId").style.display = "none";
+              document.getElementById("extrasId").style.display = "none";
+              document.getElementById("partnersId").style.display = "none";
+              document.getElementById("placeholder").style.width = 0;
 
 
-        } else {
-          document.getElementById("vormingenId").style.display ="none";
+            } else {
+              document.getElementById("vormingenId").style.display = "none";
+              document.getElementById("placeholder").style.width = "90%";
+
+            }
+            break;
+            case 2:
+            if (document.getElementById("partnersId").style.display == "none") {
+              document.getElementById("partnersId").style.display = "flex";
+              document.getElementById("vormingenId").style.display = "none";
+              document.getElementById("begeleidingId").style.display = "none";
+              document.getElementById("extrasId").style.display = "none";
+              document.getElementById("placeholder").style.width = 0;
 
 
-        }
+            } else {
+              document.getElementById("partnersId").style.display = "none";
+              document.getElementById("placeholder").style.width = "90%";
+
+            }
+            break;
+          case 3:
+            if (document.getElementById("extrasId").style.display == "none") {
+              document.getElementById("extrasId").style.display = "flex";
+              document.getElementById("vormingenId").style.display = "none";
+              document.getElementById("begeleidingId").style.display = "none";
+              document.getElementById("partnersId").style.display = "none";
+              document.getElementById("placeholder").style.width = 0;
+            } else {
+              document.getElementById("extrasId").style.display = "none";
+              document.getElementById("placeholder").style.width = "90%";
+            }
+            break;
         }
       }
 
@@ -74,14 +113,13 @@
         <div>
           <a href="index.html">Vacatures</a>
         </div>
-              <!--Log in button-->
-      <a
-      id="aanmelden"
-      class="roundedSmall"
-      href="https://bindus.axoclub.be/edesk"
-      >aanmelden</a
-    >
-
+        <!--Log in button-->
+        <a
+          id="aanmelden"
+          class="roundedSmall"
+          href="https://bindus.axoclub.be/edesk"
+          >aanmelden</a
+        >
       </header>
       <!--welcoming picture-->
       <div class="fancyFrame">
@@ -91,7 +129,7 @@
           alt="vormingsaanbod"
         />
         <div id="afspraakWrapper">
-          <a href="#" class="roundedMedium"
+          <a href="mailto: ytazi06@gmail.com" type="" class="roundedMedium"
             >Maak een afspraak! <img src="/assets/images/buttonArrow.png"
           /></a>
         </div>
@@ -179,6 +217,42 @@
           </a>
         </div>
         <!--===================knoppen om meer te lezen over begeleidingen, vormingen, partners of extras=========================-->
+        <!--========================= placeholder voor de tekst die komt wanneer je op de knop klikt (zonder de placeholder verspringt de pagina)==============================================-->
+        <div class="subtitleBlock" id="placeholder" style="display: flex;">
+          <span id="placeholderSpan">
+            <p class="heading3">Begeleiding</p>
+            <p class="bodySmall" style="text-align: justify">
+              Bij Bindus Works staan individuele begeleidingen van werkzoekenden
+              centraal. Ben jij op zoek naar werk of een opleiding, maar weet je
+              niet goed hoe je met dit proces start? Check: wij zijn er voor je!
+              Zo kunnen wij je niet alleen helpen bij het aanleren van
+              ontbrekende competenties die je nodig hebt op de arbeidsmarkt,
+              maar kunnen wij jou ook alles aanleren rond solliciteren. Denk
+              maar aan een cv of motivatiebrief helpen opstellen of zelfs een
+              sollicitatiegesprek oefenen: wij staan van A tot Z voor jou klaar!
+              Daarnaast helpen wij je ook effectief met werk of een opleiding
+              zoeken. We gaan op zoek naar vacatures of opleidingen, leggen de
+              eerste contacten voor jou op de arbeidsmarkt of bij scholen en
+              helpen je bij je communicatie naar werkgevers, bedrijven en
+              scholen toe. Vergeet niet, tijdens deze begeleidingen sta JIJ
+              centraal: wat wil je en wat doe je graag? We gaan persoonlijk en
+              op maat op zoek naar de ideale job of opleiding voor jou!
+            </p>
+            <p style="margin-bottom: 0; margin-left: 5px">In het kort:</p>
+            <ul style="margin-top: 0">
+              <li>Individuele begeleiding</li>
+              <li>Oriëntatie- en competentietest</li>
+              <li>Coaching bij onvoldoende/ontbrekende competenties</li>
+              <li>Alles aanleren rond solliciteren</li>
+              <li>Hulp bij het vinden van werk/opleiding</li>
+              <li>
+                Begeleiding bij eerste contacten met bedrijven en werkgevers
+              </li>
+              <li>Nazorg</li>
+            </ul>
+          </span>
+        </div>
+
         <!--Begeleiding-->
         <div class="subtitleBlock" id="begeleidingId">
           <span class="begeleidingClass">
@@ -307,6 +381,7 @@
           </span>
         </div>
       </div>
+
       <!--===================================einde knoppen om meer te weten over begeleiding, enzo.=================================================================-->
       <footer>
         <img class="logo" src="/assets/images/Logo.png" />
