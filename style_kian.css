@@ -17,8 +17,8 @@ body {
 .missie {
     width: 100%;
     height: 100px;
-    background-color: #b7dcdb;
-    margin-top: 200px;
+    margin-bottom: 80px;
+
 
 }
 
@@ -26,6 +26,7 @@ body {
     list-style: none;
     font-size: 35px;
     margin-left: 2%;
+    margin-top: 7%;
 }
 
 .wasdraad {
@@ -40,13 +41,14 @@ body {
     width: 100%;
     height: 80px;
     background-color: #16848b;
-
+    margin-top: -13%;
 }
 
 .impact ul {
     list-style: none;
     margin-left: 2%;
     font-size: 35px;
+    color: white;
 }
 
 .cijfers {
@@ -84,44 +86,54 @@ body {
 }
 
 .banner {
+    display: flex;
+    float: left;
     width: 100%;
     height: 200px;
     background-color: #0b3b4b;
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-    margin-left: 30%;
+    margin-left: 90px;
+    max-width: 80px;
+    margin-bottom: 70px;
 }
 
 .partners {
     width: 50px;
     height: 50px;
-    background-color: blue;
-    margin-left: 50px;
+    margin-left: 15%;
+
+}
+
+.partners p {
+    font-size: 15px;
+    color: white;
+
 }
 
 .socials {
-    width: 50px;
+    width: 100px;
     height: 50px;
-    background-color: blue;
-    margin-left: 50px;
+    margin-left: 15%;
+    display: flex;
+    float: left;
 }
 
 .contact {
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+
+    margin-left: 15%;
+    margin-top: 80px;
 }
 
 .openingsuren {
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-    margin-left: 50px;
+    width: 200px;
+    height: 100px;
+    margin-top: -1%;
+    margin-left: 10%;
+
 }
 
 .banner {
@@ -524,6 +536,7 @@ header {
     justify-content: space-around;
     vertical-align: middle;
     padding: 2% 0;
+    z-index: 100;
 }
 
 header a {
@@ -679,7 +692,7 @@ caption {
 }
 
 .wasdraad {
-    margin-bottom: 100px;
+    margin-bottom: 400px;
 
 
 
@@ -690,15 +703,13 @@ caption {
     width: 100%;
     height: 250px;
 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 
 .missie {
     float: left;
-    margin-top: -1px;
 
-    background-color: whitesmoke;
 
 
 }
@@ -736,7 +747,6 @@ caption {
     background-color: #0b3b4b;
     height: 250px;
     width: 200px;
-    margin-right: %;
 
 
 }
@@ -797,9 +807,6 @@ caption {
 
 }
 
-.slideshow-container {
-    z-index: -2;
-}
 
 
 
@@ -860,4 +867,115 @@ header img {
 #aanmelden {
     margin-left: 80%;
     margin-top: 9%;
+}
+
+h1 {
+
+    color: white;
+
+}
+
+p {
+    color: white;
+}
+
+.groet {
+    width: 200px;
+    height: 150px;
+    background-color:
+
+        position: absolute;
+    margin-top: -9%;
+    margin-left: 6%;
+}
+
+.aanbod {
+
+    width: 100%;
+    height: 400px;
+
+    margin-top: 50px;
+}
+
+.aanbod img {
+    width: 30%;
+    margin-left: 10%;
+    position: absolute;
+
+}
+
+.welkom {
+    position: relative;
+    background-color: #b8dbdb;
+
+
+}
+
+.groet h1 {
+
+    font-size: 80px;
+    margin-top: -3%;
+
+
+}
+
+.groet p {
+    margin-top: -40%;
+    font-size: 19, 9999px;
+
+}
+
+.aanbod {
+    display: flex;
+
+
+
+}
+
+.vormingen {
+    margin-top: 5%;
+    margin-left: 45%;
+
+}
+
+.start h1 {
+    margin-left: 130%;
+}
+
+.vormingen li {
+    font-size: smaller;
+    text-decoration: underline;
+
+}
+
+.start h1 {
+    font-size: 35px;
+    color: black;
+
+}
+
+.vormingen p {
+    color: black;
+}
+
+.aanbod li {
+    font-size: 35px;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.aanbiedingen {
+
+    width: 280px;
+    height: 35px;
+    background-color: #b7dcdb;
+    margin-left: 100px;
+
+
+}
+
+.aanbiedingen li {
+
+    font-size: 18px;
+
 }
