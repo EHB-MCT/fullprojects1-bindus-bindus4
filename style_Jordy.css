@@ -1,9 +1,9 @@
-@import url("https://fonts.cdnfonts.com/css/nexa-bold");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
     margin: 0;
-    font-family: "Nexa", sans-serif;
+    font-family: "Caudex", serif;
 }
 
 img {
@@ -39,7 +39,7 @@ img {
     top: 0px;
     height: 75px;
     width: 15.5%;
-    margin-left: 642px;
+    margin-left: 42.2%;
     grid-column: 1/13;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -52,16 +52,16 @@ img {
 }
 
 .Navafbeelding a {
-    grid-column: 6/8;
+    grid-column: 5/7;
     grid-row: 1/6;
 }
 
 .Navafbeelding a img {
-    grid-column: 6/8;
+    grid-column: 5/9;
     grid-row: 2/2;
-    margin-left: -20px;
-    width: 200%;
-    margin-top: 290px;
+    margin-left: 15%;
+    width: 170%;
+    margin-top: 285px;
 }
 
 header {
@@ -102,7 +102,7 @@ header div.Leftside nav ul li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 10px;
-    margin-left: 5%;
+    margin-left: 9%;
     margin-right: 20px;
 
 }
@@ -132,8 +132,8 @@ header div.Rightside nav ul li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 10px;
-    margin-left: 9%;
-    margin-right: -1%;
+    margin-left: 9.5%;
+    margin-right: 1.5%;
 }
 
 .Partners-text {
@@ -142,7 +142,6 @@ header div.Rightside nav ul li a {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(35, minmax(10px, 20px));
-    background-color: red;
 }
 
 .Partners-text h1 {
@@ -151,7 +150,7 @@ header div.Rightside nav ul li a {
     text-align: center;
 }
 
-.Partners-text img{
+.Partners-text img {
     grid-column: 2/12;
     grid-row: 7/9;
 }
@@ -162,10 +161,149 @@ header div.Rightside nav ul li a {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(35, minmax(10px, 20px));
-    background-color: blue;
+
 }
 
-.Brussel h2{
+.Brussel h2 {
     grid-column: 3/5;
     font-size: 40px;
+}
+
+.Koning-Boudewijn {
+    grid-column: 3/5;
+    grid-row: 5/11;
+    border-width: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #0B3B4B;
+}
+
+.Koning-Boudewijn img {
+    margin-left: 10%;
+}
+
+.socius {
+    grid-column: 6/8;
+    grid-row: 5/11;
+    border-width: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #0B3B4B;
+}
+
+.socius img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.minderheden-forum {
+    grid-column: 9/11;
+    grid-row: 5/11;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0B3B4B;
+    border-radius: 10%;
+}
+.minderheden-forum img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.Defederatie {
+    grid-column: 3/5;
+    grid-row: 12/18;
+    border-width: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #0B3B4B;
+}
+
+.Defederatie img {
+    margin-left: 10%;
+    margin-top: 0%;
+    width: 80%;
+}
+.Willem {
+    grid-column: 6/8;
+    grid-row: 12/18;
+    border-width: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #0B3B4B;
+}
+
+.Willem img {
+    width: 55%;
+    margin-left: 20%;
+}
+
+.Faro {
+    grid-column: 9/11;
+    grid-row: 12/18;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0B3B4B;
+    border-radius: 10%;
+}
+.Faro img{
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 3%;
+}
+
+.Unizo {
+    grid-column: 3/5;
+    grid-row: 19/25;
+    border-width: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #0B3B4B;
+}
+
+.Unizo img {
+    margin-left: 17%;
+    margin-top: 2.2%;
+    width: 65%;
+}
+
+.Manpower {
+    grid-column: 6/8;
+    grid-row: 19/25;
+    border-width: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #0B3B4B;
+}
+
+.Manpower img {
+    width: 35%;
+    margin-left: 32%;
+}
+
+.actiris {
+    grid-column: 9/11;
+    grid-row: 19/25;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0B3B4B;
+    border-radius: 10%;
+}
+.actiris img{
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 5%;
+}
+.VDAB {
+    grid-column: 3/5;
+    grid-row: 26/31;
+    border-width: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #0B3B4B;
+}
+
+.VDAB img {
+    margin-left: 25%;
+    width: 50%;
 }
