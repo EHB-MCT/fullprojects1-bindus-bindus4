@@ -24,8 +24,8 @@ body {
 
 .missie ul {
     list-style: none;
-    font-size: larger;
-    margin-left: 42%;
+    font-size: 35px;
+    margin-left: 2%;
 }
 
 .wasdraad {
@@ -36,48 +36,57 @@ body {
 }
 
 .impact {
+
     width: 100%;
     height: 80px;
-    background-color: #b7dcdb;
+    background-color: #16848b;
 
 }
 
 .impact ul {
     list-style: none;
-    margin-left: 35%;
-    font-size: larger;
+    margin-left: 2%;
+    font-size: 35px;
 }
 
 .cijfers {
     width: 100%;
     height: 500px;
-    background-color: whitesmoke;
+    background-color: #16848b;
 }
 
 .nieuwsbrief {
+
     width: 100%;
-    height: 80px;
-    background-color: #b7dcdb;
+    height: 50px;
+    padding-top: 18px;
+
 
 }
 
 .nieuwsbrief ul {
     list-style: none;
     font-size: larger;
-    margin-left: 35%;
+    margin-left: 38%;
+    padding-top: 10px;
 }
 
 .nieuws {
 
     width: 100%;
     height: 500px;
-    background-color: whitesmoke;
+
+}
+
+.nieuws ul {
+
+    margin-left: 33%;
 }
 
 .banner {
     width: 100%;
     height: 200px;
-    background-color: #04838b;
+    background-color: #0b3b4b;
 }
 
 .logo {
@@ -572,17 +581,15 @@ caption {
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
-    margin-top: 50px;
-    margin-left: 20%;
-    margin-bottom: 50px;
+    margin-left: 8%;
+    margin-top: 100px;
 }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
     margin-left: 80px;
-    margin-bottom: 100px;
+
 }
 
 /* Next & previous buttons */
@@ -600,7 +607,7 @@ caption {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    z-index: 10;
+    z-index: 50;
 }
 
 /* Position the "next button" to the right */
@@ -672,110 +679,120 @@ caption {
 }
 
 .wasdraad {
+    margin-bottom: 100px;
 
-    background-color: red;
+
 
 }
 
 .rij1 {
-    margin-top: -10px;
+    display: flex;
     width: 100%;
     height: 250px;
-    background-color: lime;
 
-
+    margin-bottom: 30px;
 
 }
 
 .missie {
     float: left;
     margin-top: -1px;
-    position: relative;
+
+    background-color: whitesmoke;
+
+
 }
 
 
 
 .een {
-    width: 250px;
-    height: 250px;
-    background-color: black;
-    margin-left: 100px;
-    margin-right: 100px;
 
+    background-color: #0b3b4b;
+    height: 250px;
+    width: 200px;
+    margin-left: 10%;
+    margin-right: 7%;
 
 }
 
 .twee {
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    margin-right: 100px;
 
+    background-color: #0b3b4b;
+    height: 250px;
+    width: 200px;
+    margin-right: 7%;
 }
 
 .drie {
-    width: 250px;
+
+    background-color: #0b3b4b;
     height: 250px;
-    background-color: yellow;
-    margin-right: 100px;
-
-
+    width: 200px;
+    margin-right: 7%;
 }
 
 .vier {
 
-    width: 250px;
+    background-color: #0b3b4b;
     height: 250px;
-    background-color: tan;
+    width: 200px;
+    margin-right: %;
 
 
 }
 
 .rij2 {
+    display: flex;
     width: 100%;
     height: 250px;
-    background-color: blue;
+
+
 
 }
 
 .visie {
     float: left;
-    margin-top: -1px;
-    position: relative;
+
+
 }
 
 .vijf {
-    width: 250px;
+    margin-left: 15%;
+    margin-right: 7%;
+    width: 200px;
     height: 250px;
-    background-color: black;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: #0b3b4b;
+
 
 
 }
 
 .zes {
-    width: 250px;
+    margin-right: 5%;
+    margin-right: 7%;
+    width: 200px;
     height: 250px;
-    background-color: white;
-    margin-right: 100px;
+    background-color: #0b3b4b;
+
 
 }
 
 .zeven {
-    width: 250px;
+    margin-right: 5%;
+    margin-right: 7%;
+    width: 200px;
     height: 250px;
-    background-color: yellow;
-    margin-right: 100px;
+    background-color: #0b3b4b;
+
 
 
 }
 
 .acht {
 
-    width: 250px;
+    width: 200px;
     height: 250px;
-    background-color: tan;
+    background-color: #0b3b4b;
 
 
 }
@@ -784,9 +801,7 @@ caption {
     z-index: -2;
 }
 
-.wasdraad {
-    z-index: -1;
-}
+
 
 header {
     background-color: #b8dcdb;
