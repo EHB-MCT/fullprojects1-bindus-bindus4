@@ -933,3 +933,14 @@ header div.Rightside nav ul li a {
     color: white;
 
 }
+
+footer{
+    width: 100%;
+}
+
+.contact{    width: 100%;
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, minmax(10px, 20px));
+    background-color: red;}
