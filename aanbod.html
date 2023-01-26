@@ -1,38 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="style_yousra.css" />
-	</head>
-	<body></body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style_yousra.css" />
+    <link rel="stylesheet" href="style_yassine.css" />
+    <script>
+      "use strict";
 
+      function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <=
+            (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+    </script>
+  </head>
+  <body>
 <header>
-	<div class="Leftside">
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#over">Wie is bindus?</a></li>
-				<li><a href="#methode">Methode</a></li>
-				<li><a href="aanbod.html">Ons aanbod</a></li>
-			</ul>
-		</nav>
-	</div>
-	<div class="Rightside">
-		<nav>
-			<ul>
-				<li><a href="Partners.html">Partners</a></li>
-				<li><a href="bindusWorks.html">BindusWorks</a></li>
-				<li><a href="#blog">Bindus Blogt</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
+  <div class="Leftside">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#over">Wie is bindus?</a></li>
+        <li><a href="#methode">Methode</a></li>
+        <li><a href="aanbod.html">Ons aanbod</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="Rightside">
+    <nav>
+      <ul>
+        <li><a href="Partners.html">Partners</a></li>
+        <li><a href="bindusWorks.html">BindusWorks</a></li>
+        <li><a href="#blog">Bindus Blogt</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <div class="Logo">
-	<a href="index.html"> <img src="assets/images/Logo.png" /></a>
+  <a href="index.html"> <img src="assets/images/Logo.png" /></a>
 </div>
+<div class="wrapper">
+  <div id="projectenWrapper">
+    <div class="project">
+      <p class="heading4">Vormingen</p>
+      <div
+        id="moreInfo1"
+        class="moreInfo"
+        onmouseover="showMoreInfo(0)"
+        onmouseleave="showLessInfo(0)"
+      >
+        <p class="bodyRegular">
+          Bindus ontwikkelt vormingen op maat, aangepast aan de voorkennis of
+          het interessegebied van u als vragende partij. Het kan een bewerking
+          zijn van een bestaande vorming (zie verder bij vormingsaanbod) of een
+          geheel nieuw vormingsconcept. Bindus biedt vorming aan leden,
+          burgerinitiatieven, lokale verenigingen, groepen, scholen en
+          hogescholen.
+        </p>
+      </div>
+    </div>
+    <div class="project2">
+      <p class="heading4">Trajectbegeleiding</p>
+      <p class="bodyRegular">
+        <span
+          class="moreInfo"
+          id="moreInfo2"
+          onmouseenter="showMoreInfo(1)"
+          onmouseleave="showLessInfo(1)"
+        >
+          Bindus verstrekt kosteloze trajectbepaling en -begeleiding aan
+          werkzoekenden in Vlaanderen. In een trajectplan worden de
+          verschillende stappen besproken en ondernomen om garantie op werk te
+          garanderen. Maar, trajectbegeleiding omvat meer dan begeleiding: ook
+          periodes van opleiding en werkervaring maken deel uit van het traject.
+          Wij volgen werkzoekenden nauw op tijdens deze periodes en overleggen
+          met de andere betrokkenen. Door trajectbegeleiding zorgt Bindus ervoor
+          dat werkzoekenden meer inzicht krijgen in zichzelf en de arbeidsmarkt.
+          Ze leren sterker, assertiever en meer zelfstandig te functioneren,
+          zowel in hun persoonlijk leven als in hun toekomstige arbeidssituatie.
+        </span>
+      </p>
+    </div>
+    <div class="project">
+      <p class="heading4">Conversatietafels</p>
+      <p class="bodyRegular">
+        <span
+          class="moreInfo"
+          id="moreInfo3"
+          onmouseenter="showMoreInfo(2)"
+          onmouseleave="showLessInfo(2)"
+        >
+          Bindus schept in haar werking voorwaarden, zodat diverse doelgroepen
+          elkaar ontmoeten tijdens sociaal-culturele activiteiten in de vrije
+          tijd van volwassenen. Zo maken ze samen intermenselijke verhalen die
+          hen versterken op persoonlijk niveau en die hen verbinden op
+          maatschappelijk niveau. Anders gezegd, de sociale participatie is het
+          middel om emancipatie te bevorderen binnen onze maatschappij. We
+          willen mensen echter niet alleen samenbrengen maar streven ook naar
+          volwaardige maatschappelijke participatie. Daarom starten we projecten
+          op waarbij we diverse groepen verbinden met de samenleving als geheel.
+          Ook hier doen we dit door middel van cultuurprocessen en -producten.
+          We ontwikkelen deze op basis van de resultaten van hierboven vermelde
+          concept luisterburen.
+        </span>
+      </p>
+    </div>
+    <div class="project">
+      <p class="heading4">Vrijwilliger begeleider conversatietafels</p>
+      <p class="bodyRegular">
+        <span
+          id="moreInfo4"
+          class="moreInfo"
+          onmouseenter="showMoreInfo(3)"
+          onmouseleave="showLessInfo(3)"
+        >
+          Als organisatie willen we mensen helpen om sterker in het leven te
+          staan en een goede beheersing van het Nederlands is hier vaak
+          onmisbaar. In de Brusselse context vraagt dit wat extra inzet en
+          daarom willen we vanaf september starten met conversatietafels
+          Nederlands. Hiervoor zijn we op zoek naar enkele enthousiaste
+          vrijwilligers om deze te begeleiden!
+        </span>
+      </p>
+    </div>
+    <div class="project2">
+      <p class="heading4">Digitalisering</p>
+      <p class="bodyRegular">
+        <span
+          id="moreInfo5"
+          class="moreInfo"
+          onmouseenter="showMoreInfo(4)"
+          onmouseleave="showLessInfo(4)"
+        >
+          Gezien de stijgende rol van digitalisering in onze maatschappij,
+          krijgt de ontwikkeling van digitale vaardigheden binnen Bindus extra
+          aandacht. We bekijken samen met onze leden hoe ze op een efficiënte
+          manier kunnen communiceren over hun werking via digitale kanalen en
+          geven tips en tricks voor het aanmaken van promotiemateriaal en het
+          registreren van activiteiten in een eenvoudig en laagdrempelig
+          CRM-systeem.
+        </span>
+      </p>
+    </div>
+    <div class="project">
+      <p class="heading4">Vrijwilligerswerking</p>
+      <p class="bodyRegular">
+        <span
+          id="moreInfo6"
+          class="moreInfo"
+          onmouseenter="showMoreInfo(5)"
+          onmouseleave="showLessInfo(5)"
+        >
+          Mensen die een vrijwillig engagement willen opnemen om
+          maatschappelijke uitdagingen aan te pakken willen wij actief
+          begeleiden. Dat doen we vanuit onze visie op de leerfunctie, met name
+          via het sociaal leren en vanuit het emancipatorische gedachtengoed.
+          Wij richten ons daarbij op verschillende vormen van vrijwillig
+          engagement. Verenigingen en hun vrijwilligers dragen op verschillende
+          manieren bij aan onze missie en visie. Het faciliteren van deze inzet
+          is een belangrijk deel van onze werking. We versterken de
+          mogelijkheden van zelforganiserende groepen en begeleiden mensen
+          richting een eerste vrijwillig engagement. We bieden tevens een
+          cursusaanbod aan rond vrijwilligerswerk dat door onze vrijwilligers
+          kosteloos gevolgd kan worden.
+        </span>
+      </p>
+    </div>
+    <div class="project">
+      <p class="heading4">Ledenondersteuning</p>
+      <p class="bodyRegular">
+        <span
+          id="moreInfo7"
+          class="moreInfo"
+          onmouseenter="showMoreInfo(5)"
+          onmouseleave="showLessInfo(5)"
+        >
+          Bindus biedt administratieve, inhoudelijke en adviserende
+          ondersteuning aan zijn leden:
+
+          <ul class="moreInfo">
+            <li>Eenvoudig administratief werk</li>
+            <li>
+              Alle aspecten van een vzw-werking Project- en subsidieaanvragen
+            </li>
+            <li>Activiteitenaanbod uitwerken</li>
+          </ul>
+        </span>
+      </p>
+    </div>
+    <div class="project2">
+      <p class="heading4">Participatie en Burgerschap</p>
+      <p class="bodyRegular">
+        <span
+          id="moreInfo8"
+          class="moreInfo"
+          onmouseenter="showMoreInfo(5)"
+          onmouseleave="showLessInfo(5)"
+        >
+          Binnen stad Beringen woont, vooral door de mijngeschiedenis, een grote
+          groep mensen met een niet-EU achtergrond, zo’n 10.000 burgers bijna.
+          Een multiculturele samenleving als deze wordt door veel burgers
+          beleefd als een duale samenleving, waardoor er een wij-zij denken
+          ontstaat. Voor vele van deze burgers is hun leefwereld beperkt tot
+          enkel hun etnische/nationale gemeenschap. Hierdoor vinden zij het
+          dikwijls moeilijker om aansluiting te vinden bij de bredere
+          gemeenschap en hier ook actief aan deel te nemen.
+        </span>
+      </p>
+    </div>
+    <div class="project" id="sultan">
+      <p class="heading4">Sultan der Maanden</p>
+      <p class="bodyRegular">
+        <span
+          id="moreInfo9"
+          class="moreInfo"
+          onmouseenter="showMoreInfo(5)"
+          onmouseleave="showLessInfo(5)"
+        >
+          Sultan der Maanden is een intercultureel familie festival dat
+          georganiseerd wordt tijdens de ramadan maand. Het is tevens een
+          festival waar er bruggen geslagen worden tussen gemeenschappen en met
+          de buurt. Tijdens Sultan der Maanden geven wij gratis Iftar. Dit is
+          een gezamenlijk eetmoment waarbij we samen met gelovigen en niet
+          geloven het vasten verbreken, samen eten en dit moment aangrijpen om
+          onze buren beter te leren kennen.
+        </span>
+      </p>
+    </div>
+  </div>
+
+  
+
+
+  <!-- End Wrapper-->
+</div>
+
+<div class="zaalverhuurWrapper">
+	
+</div>
+
+<footer>
+	<img class="logo" src="/assets/images/Logo.png" />
+	<div class="partnersWrapper">
+	  <h1 class="heading6">Met steun van</h1>
+	  <div class="partnersInnerWrapper">
+		<img
+		  class="partnersList"
+		  src="/assets/images/partners/defederatie.png"
+		/>
+		<img
+		  class="partnersList"
+		  src="/assets/images/partners/logo-nl.svg"
+		/>
+		<img
+		  class="partnersList"
+		  src="/assets/images/partners/minderheden.png"
+		/>
+		<img
+		  class="partnersList"
+		  src="/assets/images/partners/Socius.png"
+		/>
+	  </div>
+	</div>
+	<div class="socialMediaWrapper">
+	  <div class="socialMedia">
+		<img src="/assets/images/facebookWhite.png" />
+	  </div>
+	  <div class="socialMedia">
+		<img src="/assets/images/instagramWhite.png" />
+	  </div>
+
+	  <div class="socialMedia">
+		<img src="/assets/images/linkedinWhite.png" />
+	  </div>
+	</div>
+	<div class="contactWrapper">
+	  <h6 class="heading6">Contact</h6>
+	  <p class="bodyBig">
+		Brederodestraat 188<br />
+		2018 Antwerpen<br />
+		+32 3 289 91 13<br />
+		info@bindusvzw.be <br />
+	  </p>
+	</div>
+	<div class="contactWrapper">
+	  <h6 class="heading6">Openingsuren</h6>
+	  <p class="bodyBig">
+		Ma tot Vrij<br />
+		09:00 - 12:00<br />
+		12:30 - 17:00<br />
+		Za & Zon: gesloten<br />
+	  </p>
+	</div>
+  </footer>
+</body>
+</html>

@@ -752,6 +752,7 @@ footer {
   justify-content: space-evenly;
   flex-direction: row;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .partnersInnerWrapper {
@@ -954,4 +955,75 @@ footer {
   margin: 1%;
   width: 100%;
 
+}
+/*============================ aanbod =================================*/
+
+
+.project, .project2 {
+  background-color: #fff;
+  color: #04838b;
+  border-color: #043c4c;
+  border-width: 5px;
+  border-style:groove;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  width: 25%;
+  height: 100px;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: left;
+}
+
+.project:hover #moreInfo9 {
+  background-color: orangered;
+  color: gold;
+}
+
+.project p, .project2 p{
+  text-align: left;
+}
+.project:hover,.project:hover .moreInfo{
+  background-color: #c8edec;
+  color: #5b7f8a;
+  color: #043c4c;
+
+  height: max-content;
+}
+.moreInfo {
+  color: transparent;
+  width: 90%;
+  height: 100%;
+}
+
+.moreInfo:hover  {
+  color: #043c4c;
+}
+
+
+.project2 {
+  background-color: #fff;
+  color: #15949c;
+}
+.project2:hover, .project2:hover .moreInfo{
+  background-color: #15949c;
+  color: #fff;
+  height: max-content;
+
+}
+#projectenWrapper {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#sultan {
+  color: gold;
+  background-color: orangered;
+  border-style: dashed;
+  border-color: gold;
 }
