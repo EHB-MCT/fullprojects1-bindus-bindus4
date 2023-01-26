@@ -1,10 +1,12 @@
 @import url("https://fonts.cdnfonts.com/css/nexa-bold");
 @import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
 
+/*============================ BindusWorks =============================*/
 body {
   background-color: white;
   margin: 0;
   font-family: "Caudex", serif;
+
 }
 
 .wrapper {
@@ -825,4 +827,68 @@ footer {
 
 #placeholder {
   background-color: white;
+}
+
+/*============================ Vacatures =============================*/
+
+#vacaturesHoofdtitel {
+  margin-top: 8%;
+  color: #04616f;
+}
+
+#vacaturesWrapper {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.vacature, .vacature2 {
+  background-color: #fff;
+  color: #04838b;
+  border-color: #043c4c;
+  border-width: 5px;
+  border-style:groove;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  width: 25%;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: left;
+}
+.vacature p, .vacature2 p{
+  text-align: left;
+}
+.vacature:hover {
+  background-color: #c8edec;
+  color: #5b7f8a;
+}
+
+.vacature2 {
+  background-color: #fff;
+  color: #15949c;
+}
+.vacature2:hover {
+  background-color: #15949c;
+  color: #fff;
+}
+
+#spontaneSollicitatie {
+  width: 90%;
+  border-radius: 10px;
+  background-color: #15949c;
+  color: white;
+}
+
+#spontaneSollicitatie p, #spontaneSollicitatie h1 {
+  width: 90%;
+  margin:0;
+}
+#spontaneSollicitatie:hover {
+  background-color: #fff;
+  color: #15949c;
 }
