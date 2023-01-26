@@ -884,7 +884,7 @@ p {
     height: 150px;
     background-color:
 
-        position: absolute;
+ position: absolute;
     margin-top: -9%;
     margin-left: 6%;
 }
@@ -978,4 +978,9 @@ p {
 
     font-size: 18px;
 
+}
+
+.welkom {
+    width: 100%;
+    height: auto;
 }
