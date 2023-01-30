@@ -51,11 +51,55 @@ body {
     color: white;
 }
 
+.start img {
+    width: 50%;
+    margin-left: 30%;
+    margin-top: -7%;
+
+
+}
+
+
+
+
 .cijfers {
     width: 100%;
     height: 500px;
     background-color: #16848b;
+    display: flex;
+    position: relative;
 }
+
+.vrijwilligers {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.bereik {
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+.activiteiten {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 10%;
+
+}
+
+
+
 
 .nieuwsbrief {
 
@@ -883,7 +927,7 @@ p {
     width: 200px;
     height: 150px;
 
- position: absolute;
+    position: absolute;
     margin-top: -9%;
     margin-left: 6%;
 }
@@ -920,13 +964,13 @@ p {
 
 .aanbod {
     display: flex;
-position: relative;
+    position: relative;
 }
 
 
 .vormingen {
     margin-top: 5%;
-   
+
     position: relative;
 
 }
