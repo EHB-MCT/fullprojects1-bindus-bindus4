@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Partners</title>
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="style_yassine.css" />
     <link rel="stylesheet" href="style_Jordy.css" />
     
+
 
 
 </head>
@@ -51,11 +54,62 @@
                 </nav>
             </div>
         </header>
+        <!--    Made by Erik Terwan    -->
+        <!--   24th of November 2015   -->
+        <!--        MIT License        -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+                <input type="checkbox" />
 
+                <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+                <ul id="menu">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="vacatures.html">
+                        <li>Vacatures</li>
+                    </a>
+                    <a href="#Methode">
+                        <li>Methode</li>
+                    </a>
+                    <a href="aanbod.html">
+                        <li>Ons Aanbod</li>
+                    </a>
+                    <a href="Partners.html">
+                        <li>Partners</li>
+                    </a>
+                    <a href="bindusWorks.html">
+                        <li>Bindus Works</li>
+                    </a>
+                    <a href="bindusBlogt.html">
+                        <li>Bindus Blogt</li>
+                    </a>
+                    <a href="#Contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
         <div class="Logo">
             <a href="index.html"> <img src="assets/images/Logo.png" /></a>
         </div>
-        <a id="aanmelden" class="roundedSmall" href="index.html">aanmelden</a>
         <div class="Partners-text">
             <h1> Vind onze Partners!</h1>
             <img src="assets/images/belgium-Omgezet-1024x394.png">
@@ -217,8 +271,9 @@
                 <a target="_blank" href="https://www.saamo.be/"><img src="assets/images/partners/rimo.png"></a>
             </div>
             <div class="erfgoed">
-                <a target="_blank" href="https://www.erfgoedcelmijnerfgoed.be/"><img src="assets/images/partners/mijn erf goed.png"></a>
-                        
+                <a target="_blank" href="https://www.erfgoedcelmijnerfgoed.be/"><img
+                        src="assets/images/partners/mijn erf goed.png"></a>
+
             </div>
             <div class="beringen">
                 <a target="_blank" href="https://www.beringen.be/"><img src="assets/images/partners/beringen.png"></a>
@@ -237,6 +292,49 @@
                         src="assets/images/partners/decentrale.png" /></a>
             </div>
         </div>
+    </div>
+    <footer>
+        <img class="logo" src="/assets/images/Logo.png" />
+        <div class="partnersWrapper">
+            <h1 class="heading6">Met steun van</h1>
+            <div class="partnersInnerWrapper">
+                <img class="partnersList" src="/assets/images/partners/defederatie.png" />
+                <img class="partnersList" src="/assets/images/partners/logo-nl.svg" />
+                <img class="partnersList" src="/assets/images/partners/minderheden.png" />
+                <img class="partnersList" src="/assets/images/partners/Socius.png" />
+            </div>
+        </div>
+        <div class="socialMediaWrapper">
+            <div class="socialMedia">
+                <img src="/assets/images/facebookWhite.png" />
+            </div>
+            <div class="socialMedia">
+                <img src="/assets/images/instagramWhite.png" />
+            </div>
+
+            <div class="socialMedia">
+                <img src="/assets/images/linkedinWhite.png" />
+            </div>
+        </div>
+        <div class="contactWrapper">
+            <h6 class="heading6">Contact</h6>
+            <p class="bodyBig">
+                Brederodestraat 188<br />
+                2018 Antwerpen<br />
+                +32 3 289 91 13<br />
+                info@bindusvzw.be <br />
+            </p>
+        </div>
+        <div class="contactWrapper">
+            <h6 class="heading6">Openingsuren</h6>
+            <p class="bodyBig">
+                Ma tot Vrij<br />
+                09:00 - 12:00<br />
+                12:30 - 17:00<br />
+                Za & Zon: gesloten<br />
+            </p>
+        </div>
+    </footer>
 
 </body>
 
