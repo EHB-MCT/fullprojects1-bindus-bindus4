@@ -898,7 +898,7 @@ header div.Rightside nav ul li a {
     border-width: 5px;
     border-radius: 10%;
     border-style: solid;
-    border-color: red;
+    border-color: #0B3B4B;
 }
 
 .decentrale img {
@@ -913,13 +913,14 @@ header div.Rightside nav ul li a {
     grid-row: 25/26;
     margin-left: 35%;
     font-size: 50px;
+    margin-top: 15px;
     color: white;
 }
 
 .nummer2 {
     grid-column: 7/8;
     grid-row: 11/12;
-    margin-left: 60%;
+    margin-left: 70%;
     font-size: 50px;
     color: white;
 }
@@ -941,7 +942,18 @@ header div.Rightside nav ul li a {
 
 }
 
-@media(max-width: 480px) {
+.Menu {
+    display: none;
+    visibility: hidden;
+}
+
+@media(max-width: 480px){
+
+    .Menu {
+        display: contents;
+
+    }
+
     .wrapper1 {
         width: 100%;
         margin: 0 auto;
@@ -954,7 +966,7 @@ header div.Rightside nav ul li a {
 
     #grid {
         position: absolute;
-        display: grid;
+        display: none;
         grid-template-columns: repeat(12, 1fr);
         width: 100%;
         height: 100%;
@@ -989,7 +1001,7 @@ header div.Rightside nav ul li a {
         margin-top: 80px;
         margin-right: 2%;
         margin-left: 2%;
-
+    display: none;
     }
 
     header div.Leftside nav ul {
@@ -1020,6 +1032,7 @@ header div.Rightside nav ul li a {
         height: 50px;
         margin-top: 80px;
         margin-left: 4.5%;
+        display: none;
     }
 
     header div.Rightside nav ul {
@@ -1039,7 +1052,7 @@ header div.Rightside nav ul li a {
         font-size: 20px;
         font-weight: 10px;
         margin-left: 0%;
-
+    
     }
 
     .Logo {
@@ -1053,22 +1066,23 @@ header div.Rightside nav ul li a {
         grid-template-rows: repeat(40, minmax(10px, 20px));
         position: fixed;
         background-color: #b8dcdb;
-        margin-top: -280px;
-        border-radius: 80%;
+        margin-top: -300px;
+        border-radius: 0%;
         padding-bottom: 300px;
     }
 
     .Logo a {
-        grid-column: 6/8;
+        grid-column: 11/13;
         grid-row: 1/6;
     }
 
     .Logo a img {
-        grid-column: 6/8;
+        grid-column: 11/13;
         grid-row: 1/1;
-        margin-left: -40%;
-        width: 170%;
-        margin-top: 285px;
+        margin-left: 200%;
+        width: 250%;
+        margin-top: 320px;
+
     }
 
     /* Partners Pagina */
@@ -1078,20 +1092,30 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(20, minmax(10px, 20px));
-        background-color: red;
+        grid-template-rows: repeat(35, minmax(10px, 20px));
+    
+    }
 
+    /* Partners Pagina */
+    
+    .Partners-text {
+        width: 100%;
+        grid-column: 1/13;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(15, minmax(10px, 20px));
+        
     }
 
     .Partners-text h1 {
         grid-column: 1/13;
-        grid-row: 14/15;
+        grid-row: 3/5;
         text-align: center;
     }
 
     .Partners-text img {
         grid-column: 2/12;
-        grid-row: 18/19;
+        grid-row: 7/7;
     }
 
     .Brussel {
@@ -1099,9 +1123,9 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(75, minmax(10px, 20px));
-
-
+        grid-template-rows: repeat(44, minmax(10px, 20px));
+        
+    
     }
 
     .Brussel h2 {
@@ -1200,7 +1224,7 @@ header div.Rightside nav ul li a {
 
     .Unizo {
         grid-column: 3/5;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1208,14 +1232,14 @@ header div.Rightside nav ul li a {
     }
 
     .Unizo img {
-        margin-left: 17%;
-        margin-top: 5%;
-        width: 60%;
+        margin-left: 10%;
+        margin-top: 15%;
+        width: 80%;
     }
 
     .Manpower {
         grid-column: 6/8;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1223,14 +1247,14 @@ header div.Rightside nav ul li a {
     }
 
     .Manpower img {
-        width: 30%;
-        margin-left: 32%;
-        margin-top: 5%;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 10%;
     }
 
     .actiris {
         grid-column: 9/11;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1238,14 +1262,14 @@ header div.Rightside nav ul li a {
     }
 
     .actiris img {
-        width: 70%;
-        margin-left: 16%;
-        margin-top: 10%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20%;
     }
 
     .VDAB {
         grid-column: 3/5;
-        grid-row: 26/32;
+        grid-row: 17/20;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1253,14 +1277,14 @@ header div.Rightside nav ul li a {
     }
 
     .VDAB img {
-        margin-left: 19%;
-        margin-top: 5.5%;
-        width: 50%;
+        margin-left: 10%;
+        margin-top: 12%;
+        width: 80%;
     }
 
     .VUB {
         grid-column: 6/8;
-        grid-row: 26/32;
+        grid-row: 17/20;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1268,14 +1292,14 @@ header div.Rightside nav ul li a {
     }
 
     .VUB img {
-        width: 25%;
+        width: 60%;
         margin-top: 7.5%;
-        margin-left: 32.5%;
+        margin-left: 20%;
     }
 
     .BOSA {
         grid-column: 9/11;
-        grid-row: 26/32;
+        grid-row: 17/20;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1283,14 +1307,14 @@ header div.Rightside nav ul li a {
     }
 
     .BOSA img {
-        width: 70%;
-        margin-left: 16%;
-        margin-top: 16%;
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 25%;
     }
 
     .agentschap {
         grid-column: 3/5;
-        grid-row: 33/39;
+        grid-row: 21/24;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1298,14 +1322,14 @@ header div.Rightside nav ul li a {
     }
 
     .agentschap img {
-        margin-left: 25%;
-        margin-top: 5.5%;
-        width: 60%;
+        margin-left: 15%;
+        margin-top:15%;
+        width: 90%;
     }
 
     .jes {
         grid-column: 6/8;
-        grid-row: 33/39;
+        grid-row: 21/24;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1313,14 +1337,14 @@ header div.Rightside nav ul li a {
     }
 
     .jes img {
-        width: 30%;
-        margin-top: 7%;
-        margin-left: 32.5%;
+        width: 70%;
+        margin-top: 4%;
+        margin-left: 15%;
     }
 
     .Kennis {
         grid-column: 9/11;
-        grid-row: 33/39;
+        grid-row: 21/24;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1328,14 +1352,14 @@ header div.Rightside nav ul li a {
     }
 
     .Kennis img {
-        width: 25%;
-        margin-left: 35%;
-        margin-top: 8%;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 6%;
     }
 
     .jint {
         grid-column: 3/5;
-        grid-row: 40/46;
+        grid-row: 25/28;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1343,14 +1367,14 @@ header div.Rightside nav ul li a {
     }
 
     .jint img {
-        margin-left: 32%;
+        margin-left: 20%;
         margin-top: 7%;
-        width: 35%;
+        width: 70%;
     }
 
     .odissee {
         grid-column: 6/8;
-        grid-row: 40/46;
+        grid-row: 25/28;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1358,14 +1382,14 @@ header div.Rightside nav ul li a {
     }
 
     .odissee img {
-        width: 50%;
-        margin-top: 15%;
-        margin-left: 25%;
+        width: 90%;
+        margin-top: 25%;
+        margin-left: 5%;
     }
 
     .europa {
         grid-column: 9/11;
-        grid-row: 40/46;
+        grid-row: 25/28;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1373,14 +1397,14 @@ header div.Rightside nav ul li a {
     }
 
     .europa img {
-        width: 40%;
-        margin-left: 25%;
+        width: 80%;
+        margin-left: 10%;
         margin-top: 6%;
     }
 
     .Unia {
         grid-column: 3/5;
-        grid-row: 47/53;
+        grid-row: 29/32;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1388,14 +1412,14 @@ header div.Rightside nav ul li a {
     }
 
     .Unia img {
-        margin-left: 11%;
-        margin-top: 11%;
-        width: 80%;
+        margin-left: 5%;
+        margin-top: 20%;
+        width: 90%;
     }
 
     .intro {
         grid-column: 6/8;
-        grid-row: 47/53;
+        grid-row: 29/32;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1403,14 +1427,14 @@ header div.Rightside nav ul li a {
     }
 
     .intro img {
-        width: 80%;
-        margin-top: 8%;
-        margin-left: 10%;
+        width: 90%;
+        margin-top: 15%;
+        margin-left: 6%;
     }
 
     .orbit {
         grid-column: 9/11;
-        grid-row: 47/53;
+        grid-row: 29/32;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1418,14 +1442,14 @@ header div.Rightside nav ul li a {
     }
 
     .orbit img {
-        width: 25%;
-        margin-left: 35%;
-        margin-top: 8%;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 6%;
     }
 
     .bon {
         grid-column: 3/5;
-        grid-row: 54/60;
+        grid-row: 33/36;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1433,14 +1457,14 @@ header div.Rightside nav ul li a {
     }
 
     .bon img {
-        margin-left: 25%;
-        margin-top: 9%;
-        width: 50%;
+        margin-left: 15%;
+        margin-top: 15%;
+        width: 80%;
     }
 
     .fedasil {
         grid-column: 6/8;
-        grid-row: 54/60;
+        grid-row: 33/36;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1448,14 +1472,14 @@ header div.Rightside nav ul li a {
     }
 
     .fedasil img {
-        width: 50%;
-        margin-top: 11%;
-        margin-left: 20%;
+        width: 80%;
+        margin-top: 17%;
+        margin-left: 10%;
     }
 
     .sociare {
         grid-column: 9/11;
-        grid-row: 54/60;
+        grid-row: 33/36;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1463,14 +1487,14 @@ header div.Rightside nav ul li a {
     }
 
     .sociare img {
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 10%;
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 20%;
     }
 
     .tennoey {
         grid-column: 3/5;
-        grid-row: 61/67;
+        grid-row: 37/40;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1478,14 +1502,14 @@ header div.Rightside nav ul li a {
     }
 
     .tennoey img {
-        margin-left: 25%;
-        margin-top: 8%;
-        width: 40%;
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 80%;
     }
 
     .kriekelaar {
         grid-column: 6/8;
-        grid-row: 61/67;
+        grid-row: 37/40;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1494,13 +1518,13 @@ header div.Rightside nav ul li a {
 
     .kriekelaar img {
         width: 80%;
-        margin-top: 12%;
+        margin-top: 25%;
         margin-left: 10%;
     }
 
     .trace {
         grid-column: 9/11;
-        grid-row: 61/67;
+        grid-row: 37/40;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1508,14 +1532,14 @@ header div.Rightside nav ul li a {
     }
 
     .trace img {
-        width: 50%;
-        margin-left: 20%;
-        margin-top: 10%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
     }
 
     .huis {
         grid-column: 3/5;
-        grid-row: 68/74;
+        grid-row: 41/44;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1524,13 +1548,13 @@ header div.Rightside nav ul li a {
 
     .huis img {
         margin-left: 10%;
-        margin-top: 8%;
+        margin-top: 20%;
         width: 80%;
     }
 
     .basiseducatie {
         grid-column: 6/8;
-        grid-row: 68/74;
+        grid-row: 41/44;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1538,14 +1562,14 @@ header div.Rightside nav ul li a {
     }
 
     .basiseducatie img {
-        width: 70%;
-        margin-top: 12%;
-        margin-left: 10%;
+        width: 90%;
+        margin-top: 20%;
+        margin-left: 6%;
     }
 
     .start {
         grid-column: 9/11;
-        grid-row: 68/74;
+        grid-row: 41/44;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1553,9 +1577,9 @@ header div.Rightside nav ul li a {
     }
 
     .start img {
-        width: 70%;
-        margin-left: 15%;
-        margin-top: 15%;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 25%;
     }
 
     .Antwerpen {
@@ -1563,17 +1587,17 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(33, minmax(10px, 20px));
+        grid-template-rows: repeat(20, minmax(10px, 20px));
     }
 
     .Antwerpen h2 {
-        grid-column: 3/5;
-        font-size: 40px;
+        grid-column: 3/7;
+        font-size: 20px;
     }
 
     .FMV {
         grid-column: 3/5;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1581,14 +1605,14 @@ header div.Rightside nav ul li a {
     }
 
     .FMV img {
-        margin-left: 30%;
-        margin-top: 5%;
-        width: 30%;
+        margin-left: 15%;
+        margin-top: 2%;
+        width: 70%;
     }
 
     .uni {
         grid-column: 6/8;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1596,14 +1620,14 @@ header div.Rightside nav ul li a {
     }
 
     .uni img {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 15%;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 25%;
     }
 
     .karel {
         grid-column: 9/11;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1611,14 +1635,14 @@ header div.Rightside nav ul li a {
     }
 
     .karel img {
-        width: 80%;
-        margin-left: 11%;
-        margin-top: 15%;
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 25%;
     }
 
     .oggpa {
         grid-column: 3/5;
-        grid-row: 12/18;
+        grid-row: 9/12;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1626,14 +1650,14 @@ header div.Rightside nav ul li a {
     }
 
     .oggpa img {
-        margin-left: 30%;
+        margin-left: 15%;
         margin-top: 5%;
-        width: 35%;
+        width: 70%;
     }
 
     .stadsmaker {
         grid-column: 6/8;
-        grid-row: 12/18;
+        grid-row: 9/12;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1641,14 +1665,14 @@ header div.Rightside nav ul li a {
     }
 
     .stadsmaker img {
-        width: 48%;
-        margin-left: 25%;
-        margin-top: 7%;
+        width: 80%;
+        margin-left: 12.5%;
+        margin-top: 10%;
     }
 
     .monty {
         grid-column: 9/11;
-        grid-row: 12/18;
+        grid-row: 9/12;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1656,14 +1680,14 @@ header div.Rightside nav ul li a {
     }
 
     .monty img {
-        width: 69%;
-        margin-left: 16%;
-        margin-top: 7%;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 15%;
     }
 
     .cgg {
         grid-column: 3/5;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1671,14 +1695,14 @@ header div.Rightside nav ul li a {
     }
 
     .cgg img {
-        margin-left: 30%;
+        margin-left: 10%;
         margin-top: 7%;
-        width: 38%;
+        width: 80%;
     }
 
     .OCMW {
         grid-column: 6/8;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1686,14 +1710,14 @@ header div.Rightside nav ul li a {
     }
 
     .OCMW img {
-        width: 50%;
-        margin-left: 25%;
-        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
     }
 
     .arenberg {
         grid-column: 9/11;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1701,14 +1725,14 @@ header div.Rightside nav ul li a {
     }
 
     .arenberg img {
-        width: 35%;
-        margin-left: 30%;
-        margin-top: 7%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 4%;
     }
 
     .Unik {
         grid-column: 3/5;
-        grid-row: 26/32;
+        grid-row: 17/20;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1716,9 +1740,9 @@ header div.Rightside nav ul li a {
     }
 
     .Unik img {
-        margin-left: 19%;
+        margin-left: 4%;
         margin-top: 5%;
-        width: 60%;
+        width: 100%;
     }
 
     .Limburg {
@@ -1726,17 +1750,17 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(19, minmax(10px, 20px));
+        grid-template-rows: repeat(12, minmax(10px, 20px));
     }
 
     .Limburg h2 {
-        grid-column: 3/5;
-        font-size: 40px;
+        grid-column: 3/6;
+        font-size: 20px;
     }
 
     .rimo {
         grid-column: 3/5;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1745,13 +1769,13 @@ header div.Rightside nav ul li a {
 
     .rimo img {
         margin-left: 5%;
-        margin-top: 7%;
-        width: 76%;
+        margin-top: 15%;
+        width: 90%;
     }
 
     .erfgoed {
         grid-column: 6/8;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1759,15 +1783,15 @@ header div.Rightside nav ul li a {
     }
 
     .erfgoed img {
-        width: 25%;
-        margin-left: 35%;
+        width: 60%;
+        margin-left: 20%;
         margin-top: 7%;
         align-self: center;
     }
 
     .beringen {
         grid-column: 9/11;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1775,14 +1799,14 @@ header div.Rightside nav ul li a {
     }
 
     .beringen img {
-        width: 70%;
-        margin-left: 11%;
-        margin-top: 8%;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15%;
     }
 
     .uhasselt {
         grid-column: 3/5;
-        grid-row: 12/18;
+        grid-row: 9/12;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1791,8 +1815,8 @@ header div.Rightside nav ul li a {
 
     .uhasselt img {
         margin-left: 5%;
-        margin-top: 8%;
-        width: 80%;
+        margin-top: 20%;
+        width: 90%;
     }
 
     .Gent {
@@ -1800,17 +1824,17 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(12, minmax(10px, 20px));
+        grid-template-rows: repeat(8, minmax(10px, 20px));
     }
 
     .Gent h2 {
-        grid-column: 3/5;
-        font-size: 40px;
+        grid-column: 3/6;
+        font-size: 20px;
     }
 
     .amsab {
         grid-column: 3/5;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1818,15 +1842,15 @@ header div.Rightside nav ul li a {
     }
 
     .amsab img {
-        margin-left: 35%;
-        margin-top: 8%;
-        width: 25%;
+        margin-left: 20%;
+        margin-top: 6%;
+        width: 60%;
 
     }
 
     .decentrale {
         grid-column: 6/8;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1834,42 +1858,47 @@ header div.Rightside nav ul li a {
     }
 
     .decentrale img {
-        width: 30%;
-        margin-left: 32%;
+        width: 70%;
+        margin-left: 15%;
         margin-top: 5%;
         align-content: center;
     }
 
     .nummer1 {
         grid-column: 7/8;
-        grid-row: 25/26;
+        grid-row: 14/15;
         margin-left: 35%;
-        font-size: 50px;
+        margin-top: -50%;
+        font-size: 15px;
         color: white;
     }
 
     .nummer2 {
         grid-column: 7/8;
-        grid-row: 11/12;
-        margin-left: 60%;
-        font-size: 50px;
+        grid-row: 8/9;
+        margin-left: 70%;
+        font-size: 15px;
         color: white;
     }
 
     .nummer3 {
         grid-column: 10/11;
-        grid-row: 21/22;
+        grid-row: 10/11;
         margin-left: 35%;
-        font-size: 50px;
+        font-size: 15px;
         color: white;
     }
 
     .nummer4 {
         grid-column: 5/6;
-        grid-row: 16/17;
+        grid-row: 9/10;
         margin-left: 45%;
-        font-size: 50px;
+        margin-top: 50%;
+        font-size: 15px;
         color: white;
 
     }
+
+
+    
 }
