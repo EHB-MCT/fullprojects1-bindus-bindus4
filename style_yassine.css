@@ -2011,7 +2011,16 @@ footer {
   margin: 1%;
   width: 100%;
 }
-
+.buttonInnerWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.buttonsWrapper {
+  height: 80%;
+}
+.buttonsWrapper a {
+  height: 100%;
+}
 @media only screen and (max-width: 724px) {
   .fancyFrame {
     margin-top: 20%;
@@ -2023,5 +2032,63 @@ footer {
   }
   #afspraakWrapper {
     width: 100%;
+  }
+  .infoWrapper {
+    width: 100%;
+    margin-left: 0;
+
+  }
+  .bigInfo {
+    width: 100%;
+    margin-left: 0;
+    justify-content: left;
+    text-align: left;
+
+  }
+  .requirements{
+
+  }
+  .smallInfo {
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    display: none;
+  }
+  .heading3{
+    margin-left: 5%;
+  }
+  .bodyRegular{
+    text-align: left;
+    margin-left: 5%;
+  }
+  .bereikWrapper{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #werking a {
+    width: 100%;
+  }
+  #placeholder{
+    width: 0;
+    background-color: transparent;
+  }
+  .smallBereik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    vertical-align: middle;
+  }
+  .smallBereik img{
+    width: 80%;
+  }
+  .smallBereik p{
+    text-align: center;
   }
 }
