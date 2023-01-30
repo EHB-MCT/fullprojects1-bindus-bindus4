@@ -1058,11 +1058,20 @@ p {
 
     width: 500px;
     height: 250px;
-    background-color:red;
+ 
     margin-left: 33%;
-    margin-top: 5%;
+    margin-top: 2%;
+    
 }
 .wasdraad h1{
 font-size: 21px;
 
+}
+.schrijf{
+    width: 400px;
+    height: 250px;
+    margin-left: 10%;
+    background-color: blue;
+    position: relative;
+    margin-top: -60%;
 }
