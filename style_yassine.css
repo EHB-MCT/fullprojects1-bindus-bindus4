@@ -2139,6 +2139,15 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
   }
   .partnersWrapper {
     width: 100%;
