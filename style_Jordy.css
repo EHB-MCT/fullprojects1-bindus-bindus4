@@ -898,7 +898,7 @@ header div.Rightside nav ul li a {
     border-width: 5px;
     border-radius: 10%;
     border-style: solid;
-    border-color: red;
+    border-color: #0B3B4B;
 }
 
 .decentrale img {
@@ -913,13 +913,14 @@ header div.Rightside nav ul li a {
     grid-row: 25/26;
     margin-left: 35%;
     font-size: 50px;
+    margin-top: 15px;
     color: white;
 }
 
 .nummer2{
     grid-column: 7/8;
     grid-row: 11/12;
-    margin-left: 60%;
+    margin-left: 70%;
     font-size: 50px;
     color: white;
 }
@@ -941,7 +942,18 @@ header div.Rightside nav ul li a {
 
 }
 
+.Menu {
+    display: none;
+    visibility: hidden;
+}
+
 @media(max-width: 480px){
+
+    .Menu {
+        display: contents;
+
+    }
+
     .wrapper1 {
         width: 100%;
         margin: 0 auto;
@@ -954,7 +966,7 @@ header div.Rightside nav ul li a {
     
     #grid {
         position: absolute;
-        display: grid;
+        display: none;
         grid-template-columns: repeat(12, 1fr);
         width: 100%;
         height: 100%;
@@ -989,7 +1001,7 @@ header div.Rightside nav ul li a {
         margin-top: 80px;
         margin-right: 2%;
         margin-left: 2%;
-    
+    display: none;
     }
     
     header div.Leftside nav ul {
@@ -1020,6 +1032,7 @@ header div.Rightside nav ul li a {
         height: 50px;
         margin-top: 80px;
         margin-left: 4.5%;
+        display: none;
     }
     
     header div.Rightside nav ul {
@@ -1039,7 +1052,7 @@ header div.Rightside nav ul li a {
         font-size: 20px;
         font-weight: 10px;
         margin-left: 0%;
-        
+    
     }
     
     .Logo {
@@ -1053,22 +1066,23 @@ header div.Rightside nav ul li a {
         grid-template-rows: repeat(40, minmax(10px, 20px));
         position: fixed;
         background-color: #b8dcdb;
-        margin-top: -280px;
-        border-radius: 80%;
+        margin-top: -300px;
+        border-radius: 0%;
         padding-bottom: 300px;
     }
     
     .Logo a {
-        grid-column: 6/8;
+        grid-column: 11/13;
         grid-row: 1/6;
     }
     
     .Logo a img {
-        grid-column: 6/8;
+        grid-column: 11/13;
         grid-row: 1/1;
-        margin-left: -40%;
-        width: 170%;
-        margin-top: 285px;
+        margin-left: 200%;
+        width: 250%;
+        margin-top: 320px;
+
     }
     
     /* Partners Pagina */
@@ -1078,20 +1092,30 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(20, minmax(10px, 20px));
-        background-color: red;
+        grid-template-rows: repeat(35, minmax(10px, 20px));
+    
+    }
+
+    /* Partners Pagina */
+    
+    .Partners-text {
+        width: 100%;
+        grid-column: 1/13;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(15, minmax(10px, 20px));
         
     }
     
     .Partners-text h1 {
         grid-column: 1/13;
-        grid-row: 14/15;
+        grid-row: 3/5;
         text-align: center;
     }
     
     .Partners-text img {
         grid-column: 2/12;
-        grid-row: 18/19;
+        grid-row: 7/7;
     }
     
     .Brussel {
@@ -1099,7 +1123,7 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(75, minmax(10px, 20px));
+        grid-template-rows: repeat(44, minmax(10px, 20px));
         
     
     }
@@ -1200,7 +1224,7 @@ header div.Rightside nav ul li a {
     
     .Unizo {
         grid-column: 3/5;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1215,7 +1239,7 @@ header div.Rightside nav ul li a {
     
     .Manpower {
         grid-column: 6/8;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1230,7 +1254,7 @@ header div.Rightside nav ul li a {
     
     .actiris {
         grid-column: 9/11;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1245,7 +1269,7 @@ header div.Rightside nav ul li a {
     
     .VDAB {
         grid-column: 3/5;
-        grid-row: 26/32;
+        grid-row: 17/20;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1260,7 +1284,7 @@ header div.Rightside nav ul li a {
     
     .VUB {
         grid-column: 6/8;
-        grid-row: 26/32;
+        grid-row: 17/20;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1275,7 +1299,7 @@ header div.Rightside nav ul li a {
     
     .BOSA {
         grid-column: 9/11;
-        grid-row: 26/32;
+        grid-row: 17/20;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1290,7 +1314,7 @@ header div.Rightside nav ul li a {
     
     .agentschap {
         grid-column: 3/5;
-        grid-row: 33/39;
+        grid-row: 21/24;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1305,7 +1329,7 @@ header div.Rightside nav ul li a {
     
     .jes {
         grid-column: 6/8;
-        grid-row: 33/39;
+        grid-row: 21/24;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1320,7 +1344,7 @@ header div.Rightside nav ul li a {
     
     .Kennis {
         grid-column: 9/11;
-        grid-row: 33/39;
+        grid-row: 21/24;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1335,7 +1359,7 @@ header div.Rightside nav ul li a {
     
     .jint {
         grid-column: 3/5;
-        grid-row: 40/46;
+        grid-row: 25/28;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1350,7 +1374,7 @@ header div.Rightside nav ul li a {
     
     .odissee {
         grid-column: 6/8;
-        grid-row: 40/46;
+        grid-row: 25/28;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1365,7 +1389,7 @@ header div.Rightside nav ul li a {
     
     .europa {
         grid-column: 9/11;
-        grid-row: 40/46;
+        grid-row: 25/28;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1380,7 +1404,7 @@ header div.Rightside nav ul li a {
     
     .Unia {
         grid-column: 3/5;
-        grid-row: 47/53;
+        grid-row: 29/32;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1395,7 +1419,7 @@ header div.Rightside nav ul li a {
     
     .intro {
         grid-column: 6/8;
-        grid-row: 47/53;
+        grid-row: 29/32;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1410,7 +1434,7 @@ header div.Rightside nav ul li a {
     
     .orbit {
         grid-column: 9/11;
-        grid-row: 47/53;
+        grid-row: 29/32;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1425,7 +1449,7 @@ header div.Rightside nav ul li a {
     
     .bon {
         grid-column: 3/5;
-        grid-row: 54/60;
+        grid-row: 33/36;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1440,7 +1464,7 @@ header div.Rightside nav ul li a {
     
     .fedasil {
         grid-column: 6/8;
-        grid-row: 54/60;
+        grid-row: 33/36;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1455,7 +1479,7 @@ header div.Rightside nav ul li a {
     
     .sociare {
         grid-column: 9/11;
-        grid-row: 54/60;
+        grid-row: 33/36;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1470,7 +1494,7 @@ header div.Rightside nav ul li a {
     
     .tennoey {
         grid-column: 3/5;
-        grid-row: 61/67;
+        grid-row: 37/40;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1485,7 +1509,7 @@ header div.Rightside nav ul li a {
     
     .kriekelaar {
         grid-column: 6/8;
-        grid-row: 61/67;
+        grid-row: 37/40;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1500,7 +1524,7 @@ header div.Rightside nav ul li a {
     
     .trace {
         grid-column: 9/11;
-        grid-row: 61/67;
+        grid-row: 37/40;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1515,7 +1539,7 @@ header div.Rightside nav ul li a {
     
     .huis {
         grid-column: 3/5;
-        grid-row: 68/74;
+        grid-row: 41/44;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1530,7 +1554,7 @@ header div.Rightside nav ul li a {
     
     .basiseducatie {
         grid-column: 6/8;
-        grid-row: 68/74;
+        grid-row: 41/44;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1545,7 +1569,7 @@ header div.Rightside nav ul li a {
     
     .start {
         grid-column: 9/11;
-        grid-row: 68/74;
+        grid-row: 41/44;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1563,17 +1587,17 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(33, minmax(10px, 20px));
+        grid-template-rows: repeat(20, minmax(10px, 20px));
     }
     
     .Antwerpen h2 {
-        grid-column: 3/5;
-        font-size: 40px;
+        grid-column: 3/7;
+        font-size: 20px;
     }
     
     .FMV {
         grid-column: 3/5;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1588,7 +1612,7 @@ header div.Rightside nav ul li a {
     
     .uni {
         grid-column: 6/8;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1603,7 +1627,7 @@ header div.Rightside nav ul li a {
     
     .karel {
         grid-column: 9/11;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1618,7 +1642,7 @@ header div.Rightside nav ul li a {
     
     .oggpa {
         grid-column: 3/5;
-        grid-row: 12/18;
+        grid-row: 9/12;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1633,7 +1657,7 @@ header div.Rightside nav ul li a {
     
     .stadsmaker {
         grid-column: 6/8;
-        grid-row: 12/18;
+        grid-row: 9/12;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1648,7 +1672,7 @@ header div.Rightside nav ul li a {
     
     .monty {
         grid-column: 9/11;
-        grid-row: 12/18;
+        grid-row: 9/12;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1663,7 +1687,7 @@ header div.Rightside nav ul li a {
     
     .cgg {
         grid-column: 3/5;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1678,7 +1702,7 @@ header div.Rightside nav ul li a {
     
     .OCMW {
         grid-column: 6/8;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1693,7 +1717,7 @@ header div.Rightside nav ul li a {
     
     .arenberg {
         grid-column: 9/11;
-        grid-row: 19/25;
+        grid-row: 13/16;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1708,7 +1732,7 @@ header div.Rightside nav ul li a {
     
     .Unik {
         grid-column: 3/5;
-        grid-row: 26/32;
+        grid-row: 17/20;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1726,17 +1750,17 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(19, minmax(10px, 20px));
+        grid-template-rows: repeat(12, minmax(10px, 20px));
     }
     
     .Limburg h2 {
-        grid-column: 3/5;
-        font-size: 40px;
+        grid-column: 3/6;
+        font-size: 20px;
     }
     
     .rimo {
         grid-column: 3/5;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1751,7 +1775,7 @@ header div.Rightside nav ul li a {
     
     .erfgoed {
         grid-column: 6/8;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1767,7 +1791,7 @@ header div.Rightside nav ul li a {
     
     .beringen {
         grid-column: 9/11;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-style: solid;
         border-color: #0B3B4B;
@@ -1782,7 +1806,7 @@ header div.Rightside nav ul li a {
     
     .uhasselt {
         grid-column: 3/5;
-        grid-row: 12/18;
+        grid-row: 9/12;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1800,17 +1824,17 @@ header div.Rightside nav ul li a {
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(12, minmax(10px, 20px));
+        grid-template-rows: repeat(8, minmax(10px, 20px));
     }
     
     .Gent h2 {
-        grid-column: 3/5;
-        font-size: 40px;
+        grid-column: 3/6;
+        font-size: 20px;
     }
     
     .amsab {
         grid-column: 3/5;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1826,7 +1850,7 @@ header div.Rightside nav ul li a {
     
     .decentrale {
         grid-column: 6/8;
-        grid-row: 5/11;
+        grid-row: 5/8;
         border-width: 5px;
         border-radius: 10%;
         border-style: solid;
@@ -1842,34 +1866,39 @@ header div.Rightside nav ul li a {
     
     .nummer1{
         grid-column: 7/8;
-        grid-row: 25/26;
+        grid-row: 14/15;
         margin-left: 35%;
-        font-size: 50px;
+        margin-top: -50%;
+        font-size: 15px;
         color: white;
     }
     
     .nummer2{
         grid-column: 7/8;
-        grid-row: 11/12;
-        margin-left: 60%;
-        font-size: 50px;
+        grid-row: 8/9;
+        margin-left: 70%;
+        font-size: 15px;
         color: white;
     }
     
     .nummer3{
         grid-column: 10/11;
-        grid-row: 21/22;
+        grid-row: 10/11;
         margin-left: 35%;
-        font-size: 50px;
+        font-size: 15px;
         color: white;
     }
     
     .nummer4{
         grid-column: 5/6;
-        grid-row: 16/17;
+        grid-row: 9/10;
         margin-left: 45%;
-        font-size: 50px;
+        margin-top: 50%;
+        font-size: 15px;
         color: white;
     
     }
+
+
+    
 }
