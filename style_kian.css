@@ -882,7 +882,6 @@ p {
 .groet {
     width: 200px;
     height: 150px;
-    background-color:
 
  position: absolute;
     margin-top: -9%;
@@ -897,12 +896,6 @@ p {
     margin-top: 50px;
 }
 
-.aanbod img {
-    width: 30%;
-    margin-left: 10%;
-    position: absolute;
-
-}
 
 .welkom {
     position: relative;
@@ -927,14 +920,14 @@ p {
 
 .aanbod {
     display: flex;
-
-
-
+position: relative;
 }
+
 
 .vormingen {
     margin-top: 5%;
-    margin-left: 45%;
+   
+    position: relative;
 
 }
 
