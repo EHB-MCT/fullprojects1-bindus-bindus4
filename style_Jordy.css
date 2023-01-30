@@ -1079,21 +1079,10 @@ header div.Rightside nav ul li a {
     .Logo a img {
         grid-column: 11/13;
         grid-row: 1/1;
-        margin-left: 200%;
-        width: 250%;
-        margin-top: 320px;
+        margin-left: 1200%;
+        width: 400%;
+        margin-top: 310px;
 
-    }
-
-    /* Partners Pagina */
-
-    .Partners-text {
-        width: 100%;
-        grid-column: 1/13;
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(35, minmax(10px, 20px));
-    
     }
 
     /* Partners Pagina */
