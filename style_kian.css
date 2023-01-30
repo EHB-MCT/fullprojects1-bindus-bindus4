@@ -1053,3 +1053,16 @@ p {
     width: 100%;
     height: auto;
 }
+
+.inschrijven {
+
+    width: 500px;
+    height: 250px;
+    background-color:red;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+.wasdraad h1{
+font-size: 21px;
+
+}
