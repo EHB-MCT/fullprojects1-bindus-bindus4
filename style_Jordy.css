@@ -615,11 +615,7 @@ header div.Rightside nav ul li a {
     border-radius: 10%;
 }
 
-.start img {
-    width: 70%;
-    margin-left:15%;
-    margin-top: 15%;
-}
+
 
 .Antwerpen{
     width: 100%;
@@ -943,4 +939,4 @@ footer{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, minmax(10px, 20px));
-    background-color: red;}
+   }
