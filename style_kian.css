@@ -59,7 +59,7 @@ body {
 
 }
 
-.cijfers h1{
+.cijfers h1 {
     font-size: 20px;
 }
 
@@ -70,47 +70,63 @@ body {
     background-color: #16848b;
     display: flex;
     position: relative;
+
 }
 
 .vrijwilligers {
-    background-color: red;
+
     width: 120px;
     height: 100px;
     position: absolute;
     margin-left: 12%;
-    margin-top: 10%;
+    margin-top: 7%;
 
 }
 
+.vrijwilligers li {
+    list-style: none;
+    color: white;
+}
+
+.activiteiten li {
+    list-style: none;
+    color: white;
+}
+
+
 .bereik {
-    background-color: blue;
+
     width: 300px;
     height: 100px;
     position: absolute;
     margin-left: 40%;
-    margin-top: 10%;
-   
-}
-.bereik img{
-width: 15%;
-margin-left: 13%;
+    margin-top: 7%;
 
 }
-.bereik ul{
-margin-left: -3%;
-    list-style: none;
+
+.bereik img {
+    width: 15%;
+    margin-left: 13%;
+
 }
-.bereik h1{
+
+.bereik ul {
+    margin-left: -3%;
+    list-style: none;
+    color: white;
+}
+
+.bereik h1 {
     margin-left: 7%;
 }
 
 .activiteiten {
-    background-color: yellow;
+
     width: 120px;
     height: 100px;
     position: absolute;
     margin-left: 75%;
-    margin-top: 10%;
+    margin-top: 7%;
 
 }
 
