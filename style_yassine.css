@@ -1920,8 +1920,8 @@ footer {
   .requirements img{
     width: 10%;
     height: 50%;
-    background-color: red;
     padding: 0;
+    padding-right: 5%;
     margin: 0;
     margin-top: 10%;
   }
