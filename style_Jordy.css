@@ -23,7 +23,7 @@ img {
 
 #grid {
     position: absolute;
-    display: none;
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
     width: 100%;
     height: 100%;
@@ -942,12 +942,100 @@ header div.Rightside nav ul li a {
 
 }
 
+.Contacts {
+    top: 0px;
+    height: 900px;
+    width: 100%;
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(60, minmax(10px, 20px));
+    color: #fff;
+    background-color: #04838b;
+}
+
+
+.Contacts h1 {
+    grid-column: 5/9;
+    grid-row: 1/2;
+    font-size: 80px;
+    text-align: center;
+    background-color: #04838b;
+}
+
+.Phone {
+    grid-row: 15/25;
+    grid-column: 3/5;
+    width: 50%;
+    margin-left: -2%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Mail {
+    grid-row: 15/25;
+    grid-column: 6/8;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.Headquarters {
+    grid-row: 15/25;
+    grid-column: 10/11;
+    font-size: 18px;
+    width: 100%;
+    margin-left: 03%;
+    text-align: center;
+}
+
+.secretariat1 {
+    grid-row: 35/40;
+    grid-column: 3/5;
+    width: 50%;
+    margin-left: -2%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.secretariat2 {
+    grid-row: 35/40;
+    grid-column: 6/8;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Clock {
+    grid-row: 35/40;
+    grid-column: 9/11;
+    margin-left: 52%;
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.accessibility {
+    top: 0px;
+    height: 900px;
+    width: 100%;
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(60, minmax(10px, 20px));
+}
+
+.train {
+    grid-column: 3/4;
+}
+
 .Menu {
     display: none;
     visibility: hidden;
 }
 
-@media(max-width: 480px){
+@media(max-width: 500px) {
 
     .Menu {
         display: contents;
@@ -1001,7 +1089,7 @@ header div.Rightside nav ul li a {
         margin-top: 80px;
         margin-right: 2%;
         margin-left: 2%;
-    display: none;
+        display: none;
     }
 
     header div.Leftside nav ul {
@@ -1052,7 +1140,7 @@ header div.Rightside nav ul li a {
         font-size: 20px;
         font-weight: 10px;
         margin-left: 0%;
-    
+
     }
 
     .Logo {
@@ -1086,14 +1174,14 @@ header div.Rightside nav ul li a {
     }
 
     /* Partners Pagina */
-    
+
     .Partners-text {
         width: 100%;
         grid-column: 1/13;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(15, minmax(10px, 20px));
-        
+
     }
 
     .Partners-text h1 {
@@ -1113,8 +1201,8 @@ header div.Rightside nav ul li a {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(44, minmax(10px, 20px));
-        
-    
+
+
     }
 
     .Brussel h2 {
@@ -1312,7 +1400,7 @@ header div.Rightside nav ul li a {
 
     .agentschap img {
         margin-left: 15%;
-        margin-top:15%;
+        margin-top: 15%;
         width: 90%;
     }
 
@@ -1889,5 +1977,5 @@ header div.Rightside nav ul li a {
     }
 
 
-    
+
 }
