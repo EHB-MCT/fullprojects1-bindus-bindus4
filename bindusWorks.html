@@ -1,79 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BindusWorks</title>
-  <link rel="icon" href="/assets/images/icons/favicon.ico" />
-  <link rel="stylesheet" href="style_yassine.css" />
-  <link rel="stylesheet" href="style_jordy.css" />
-  <link rel="stylesheet" href="Menu.css">
-<<<<<<< HEAD
-=======
-
->>>>>>> 40c32b927603ab81bcb1f45d889fc4107e2373ca
-  <!--javascript code-->
-  <script>
-    "use strict";
-
-      function showMoreInfo(select) {
-        switch (select) {
-          case 0:
-            if (
-              document.getElementById("begeleidingId").style.display == "none"
-            ) {
-              document.getElementById("begeleidingId").style.display = "flex";
-              document.getElementById("vormingenId").style.display = "none";
-              document.getElementById("extrasId").style.display = "none";
-              document.getElementById("partnersId").style.display = "none";
-              document.getElementById("placeholder").style.width = 0;
-            } else {
-              document.getElementById("begeleidingId").style.display = "none";
-              document.getElementById("placeholder").style.width = "90%";
-            }
-            break;
-          case 1:
-            if (
-              document.getElementById("vormingenId").style.display == "none"
-            ) {
-              document.getElementById("vormingenId").style.display = "flex";
-              document.getElementById("begeleidingId").style.display = "none";
-              document.getElementById("extrasId").style.display = "none";
-              document.getElementById("partnersId").style.display = "none";
-              document.getElementById("placeholder").style.width = 0;
-            } else {
-              document.getElementById("vormingenId").style.display = "none";
-              document.getElementById("placeholder").style.width = "90%";
-            }
-            break;
-          case 2:
-            if (document.getElementById("partnersId").style.display == "none") {
-              document.getElementById("partnersId").style.display = "flex";
-              document.getElementById("vormingenId").style.display = "none";
-              document.getElementById("begeleidingId").style.display = "none";
-              document.getElementById("extrasId").style.display = "none";
-              document.getElementById("placeholder").style.width = 0;
-            } else {
-              document.getElementById("partnersId").style.display = "none";
-              document.getElementById("placeholder").style.width = "90%";
-            }
-            break;
-          case 3:
-            if (document.getElementById("extrasId").style.display == "none") {
-              document.getElementById("extrasId").style.display = "flex";
-              document.getElementById("vormingenId").style.display = "none";
-              document.getElementById("begeleidingId").style.display = "none";
-              document.getElementById("partnersId").style.display = "none";
-              document.getElementById("placeholder").style.width = 0;
-            } else {
-              document.getElementById("extrasId").style.display = "none";
-              document.getElementById("placeholder").style.width = "90%";
-            }
-            break;
-        }
-      }
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BindusWorks</title>
+    <link rel="icon" href="/assets/images/icons/favicon.ico" />
+    <link rel="stylesheet" href="style_yassine.css" />
+    <link rel="stylesheet" href="style_jordy.css" />
+    <link rel="stylesheet" href="Menu.css" />
+    <!--javascript code-->
+    <script>
+      "use strict";
 
       function isInViewport(element) {
         const rect = element.getBoundingClientRect();
@@ -89,93 +27,99 @@
     </script>
   </head>
 
-<body>
-  <header>
-    <div class="Leftside">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="vacatures.html">Vacatures</a></li>
-          <li><a href="#methode">Methode</a></li>
-          <li><a href="aanbod.html">Ons aanbod</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="Rightside">
-      <nav>
-        <ul>
-          <li><a href="Partners.html">Partners</a></li>
-          <li><a href="bindusWorks.html">BindusWorks</a></li>
-          <li><a href="bindusBlogt.html">Bindus Blogt</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-          <!--    Made by Erik Terwan    -->
-        <!--   24th of November 2015   -->
-        <!--        MIT License        -->
-        <nav role="navigation">
-          <div id="menuToggle">
-              <!--
+  <body>
+    <header>
+      <div class="Leftside">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vacatures.html">Vacatures</a></li>
+            <li><a href="#methode">Methode</a></li>
+            <li><a href="aanbod.html">Ons aanbod</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="Rightside">
+        <nav>
+          <ul>
+            <li><a href="Partners.html">Partners</a></li>
+            <li><a href="bindusWorks.html">BindusWorks</a></li>
+            <li><a href="bindusBlogt.html">Bindus Blogt</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
     A fake / hidden checkbox is used as click reciever,
     so you can use the :checked selector on it.
     -->
-              <input type="checkbox" />
+        <input type="checkbox" />
 
-              <!--
+        <!--
     Some spans to act as a hamburger.
     
     They are acting like a real hamburger,
     not that McDonalds stuff.
     -->
-              <span></span>
-              <span></span>
-              <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
 
-              <!--
+        <!--
     Too bad the menu has to be inside of the button
     but hey, it's pure CSS magic.
     -->
-              <ul id="menu">
-                  <a href="index.html">
-                      <li>Home</li>
-                  </a>
-                  <a href="vacatures.html">
-                      <li>Vacatures</li>
-                  </a>
-                  <a href="#Methode">
-                      <li>Methode</li>
-                  </a>
-                  <a href="aanbod.html">
-                      <li>Ons Aanbod</li>
-                  </a>
-                  <a href="Partners.html">
-                      <li>Partners</li>
-                  </a>
-                  <a href="bindusWorks.html">
-                      <li>Bindus Works</li>
-                  </a>
-                  <a href="bindusBlogt.html">
-                      <li>Bindus Blogt</li>
-                  </a>
-                  <a href="Contact.html">
-                      <li>Contact</li>
-                  </a>
-              </ul>
-          </div>
-      </nav>
-  <div class="Logo">
-    <a href="index.html"> <img src="assets/images/Logo.png" /></a>
-  </div>
-  <div class="wrapper">
-    <!--navigation-->
-    <div class="fancyFrame">
-      <img class="captionImg" src="/assets/images/bindusWorkFoto.png" alt="vormingsaanbod" />
+        <ul id="menu">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="vacatures.html">
+            <li>Vacatures</li>
+          </a>
+          <a href="#Methode">
+            <li>Methode</li>
+          </a>
+          <a href="aanbod.html">
+            <li>Ons Aanbod</li>
+          </a>
+          <a href="Partners.html">
+            <li>Partners</li>
+          </a>
+          <a href="bindusWorks.html">
+            <li>Bindus Works</li>
+          </a>
+          <a href="bindusBlogt.html">
+            <li>Bindus Blogt</li>
+          </a>
+          <a href="Contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+    <div class="Logo">
+      <a href="index.html"> <img src="assets/images/Logo.png" /></a>
+    </div>
+    <div class="wrapper">
+      <!--navigation-->
+      <div class="fancyFrame">
+        <img
+          class="captionImg"
+          src="/assets/images/bindusWorkFoto.png"
+          alt="vormingsaanbod"
+        />
       </div>
       <div id="afspraakWrapper">
-        <a href="mailto: ytazi06@gmail.com" type="" class="roundedMedium">Maak een afspraak! <img
-            src="/assets/images/buttonArrow.png" /></a>
+        <a href="mailto: info@bindusvzw.be?Subject=Afspraak bindusWorks &body=Beste,
+         ik zou graag een afspraak willen maken op: [schrijf hier het datum van de afspraak]. Alvast bedankt" type="" class="roundedMedium"
+          >Maak een afspraak! <img src="/assets/images/buttonArrow.png"
+        /></a>
       </div>
       <!--information about bindus works-->
       <div class="infoWrapper">
@@ -380,16 +324,21 @@
         </div>
         <div class="socialMediaWrapper">
           <div class="socialMedia">
-              <a target="_blank" href="https://www.facebook.com/bindusvzw"><img src="/assets/images/facebookWhite.png" /></a>
+            <a target="_blank" href="https://www.facebook.com/bindusvzw"
+              ><img src="/assets/images/icons/Facebook.png"
+            /></a>
           </div>
           <div class="socialMedia">
-              <a target="_blank" href="https://www.instagram.com/bindus_vzw/"><img src="/assets/images/instagramWhite.png" /></a>
+            <a target="_blank" href="https://www.instagram.com/bindus_vzw/"
+              ><img src="/assets/images/icons/Instagram.png"
+            /></a>
           </div>
 
           <div class="socialMedia">
-              <a target="_blank" href="https://be.linkedin.com/company/bindusvzw"><img src="/assets/images/linkedinWhite.png" /></a>
+            <a target="_blank" href="https://be.linkedin.com/company/bindusvzw"
+              ><img src="/assets/images/icons/Linkedin.png"
+            /></a>
           </div>
-      </div>
         </div>
         <div class="contactWrapper">
           <h6 class="heading6">Contact</h6>
