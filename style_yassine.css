@@ -298,12 +298,8 @@ blockquote {
 }
 
 .socialMedia {
-  padding: 20px;
   background-color: #b7dcdb;
   border-radius: 100%;
-  width: 25px;
-  height: 25px;
-  margin: 15px;
 }
 
 .socialMedia img {
@@ -1354,6 +1350,9 @@ blockquote {
 }
 
 .socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
   background-color: #b7dcdb;
   border-radius: 100%;
@@ -1363,7 +1362,7 @@ blockquote {
 }
 
 .socialMedia img {
-  width: 100%;
+  width: 200%;
 }
 
 .socialMedia:hover {
@@ -2021,6 +2020,26 @@ footer {
 .buttonsWrapper a {
   height: 100%;
 }
+.werking {
+  background-color: #fff;
+  color: #04838b;
+  border-color: #04838b;
+  border-width: 5px;
+  border-style: groove;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  width: 98%;
+  padding: 5%;
+  margin: 0;
+  margin-left: -5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: left;
+
+}
+
 @media only screen and (max-width: 724px) {
   .fancyFrame {
     margin-top: 20%;
@@ -2090,5 +2109,81 @@ footer {
   }
   .smallBereik p{
     text-align: center;
+  }
+  .werkingInnerWrapper {
+    width: 100%;
+  }
+  .werkingOuterWrapper {
+    width: 100%;
+  }
+  .werking {
+    background-color: #04838b;
+    color: #fff;
+    border-color: #043c4c;
+    border-width: 5px;
+    border-style: groove;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    width: 98%;
+    padding: 5%;
+    margin: 0;
+    margin-left: -5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .partnersWrapper {
+    width: 100%;
+  }
+  .partnersInnerWrapper{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #fff;
+  }
+  .socialMediaWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+  }
+  .socialMedia {
+    padding: 1%;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+
+    margin: 2%;
+      margin-top: 10%;
+    display: flex;
+    background-color:transparent;
+    justify-content: center;
+  }
+  .socialMedia img {
+    width: 100%;
+    padding: 1%;
+  }
+  .logo{
+    width: 50%;
+  }
+  .contactWrapper {
+    font-size: 25px;
   }
 }
