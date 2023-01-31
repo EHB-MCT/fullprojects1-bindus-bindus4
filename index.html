@@ -201,18 +201,28 @@
                 <p>&emsp;&emsp;20,000 mensen bereikt</p>
             </div>
         </div>
-        <div class="newsletter">
-            <ul>
-                <li>Schrijf je in op onze nieuwsbrief</li>
-            </ul>
-        </div>
-        <div class="news">
-            <ul>Wil je op de hoogte blijven van onze activiteiten, schrijf je <br>
-                dan in op onze nieuwsbrief via onderstaaand formulier.</ul>
-
-            <div class="register">
-                <img src="assets/images/icons/fancyMaskImage.png">
-                <div class="write"></div>
+       
+       
+          
+            <form action="action_page.php">
+                <div class="container">
+                  <h2>Schrijf je in op onze nieuwsbrief</h2>
+                  <p>Wil je op de hoogte blijven van onze activiteiten, schrijf je dan in op onze nieuwsbrief via onderstaand formulier</p>
+                </div>
+              
+                <div class="container" style="background-color:white">
+                  <input type="text" placeholder="Naam" name="name" required>
+                  <input type="text" placeholder="Jouw e-mail" name="mail" required>
+                  <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> Dagelijkse nieuwsbrief
+                  </label>
+                </div>
+              
+                <div class="container">
+                  <input type="submit" value="Verzenden">
+                </div>
+              </form>
+           
             </div>
         </div>
         <div class="banner">
