@@ -947,7 +947,7 @@ header div.Rightside nav ul li a {
     visibility: hidden;
 }
 
-@media(max-width: 480px){
+@media(max-width: 500px){
 
     .Menu {
         display: contents;

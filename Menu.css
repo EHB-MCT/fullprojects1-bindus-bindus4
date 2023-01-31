@@ -8,6 +8,8 @@
  * production code, beware of the browser
  * prefixes.
  */
+ @import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
+
 
  body
  {
@@ -17,7 +19,7 @@
    /* make it look decent enough */
   
    color: black;
-   font-family: "Avenir Next", "Avenir", sans-serif;
+   font-family: "Caudex", serif;
  }
  
  #menuToggle
@@ -33,7 +35,7 @@
    user-select: none;
  }
 
- @media (max-width:480px){
+ @media (max-width:500px){
     #menuToggle{
     visibility: visible;}
  }
