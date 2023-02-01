@@ -870,7 +870,7 @@ footer {
   background-color: #c8edec;
   color: #043c4c;
 
-  height: max-content;
+  
 }
 .moreInfo {
   width: 90%;
@@ -889,7 +889,7 @@ footer {
 .project2:hover .moreInfo {
   background-color: #15949c;
   color: #fff;
-  height: max-content;
+  
 }
 #projectenWrapper {
   margin-top: 5%;
