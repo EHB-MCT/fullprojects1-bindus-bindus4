@@ -635,7 +635,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   width: 220px;
-  background-color: #04838b;
+  background-color: #fff;
   padding: 10px;
   border-radius: 5px;
 }
@@ -848,14 +848,13 @@ footer {
   align-items: flex-start;
   border-radius: 10px;
   width: 25%;
-  height: 100px;
   padding: 2%;
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: left;
 }
 
-.project:hover #moreInfo9 {
+.project:hover #sultan {
   background-color: orangered;
   color: gold;
 }
@@ -867,13 +866,11 @@ footer {
 .project:hover,
 .project:hover .moreInfo {
   background-color: #c8edec;
-  color: #5b7f8a;
   color: #043c4c;
 
   height: max-content;
 }
 .moreInfo {
-  color: transparent;
   width: 90%;
   height: 100%;
 }
@@ -1664,7 +1661,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   width: 220px;
-  background-color: #04838b;
+  background-color: #fff;
   padding: 10px;
   border-radius: 5px;
 }
@@ -1904,6 +1901,33 @@ footer {
   margin-left: 1%;
   }
 
+  #metSteunVan {
+    background-color: #fff;
+    color: #043c4c;
+    padding: 2%;
+    margin-bottom: -1%;
+    border-radius: 5px 5px 0 0;
+  }
+  #sultan:hover {
+    background-color: orangered;
+    color: gold;
+    border-color: gold;
+  }
+  #sultan:hover p {
+    background-color: orangered;
+    color: gold;
+  }
+
+  #sultan p {
+    color: orange;
+    background-color: orangered;
+  }
+  #sultan {
+    border-style: dashed;
+    border-color: goldenrod;
+    color: orange;
+    background-color: orangered;
+  }
 @media only screen and (max-width: 724px) {
   /*============================bindusWorks===============================*/
   .fancyFrame {
@@ -2082,6 +2106,11 @@ footer {
     width: 60%;
     padding: 1%;
   }
+  footer img {
+    margin-top: 20%;
+    width: 50%;
+  }
+  
   .logo{
     width: 50%;
   }
@@ -2105,5 +2134,12 @@ footer {
     margin-top: 20%;
     font-size: 45px;
     margin-bottom: 2%;
+  }
+  /*================================aanbod========================================*/
+  .project,.project2 {
+    width: 80%;
+  }
+  #projectenWrapper{
+    margin-top: 20%;
   }
 }
