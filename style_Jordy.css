@@ -2392,7 +2392,7 @@ header div.Rightside nav ul li a {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(1, minmax(1px, 1px));
-        margin-top: 80%;
+        margin-top: 60%;
     }
     
     .mapouter{
