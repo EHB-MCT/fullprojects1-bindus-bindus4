@@ -1180,7 +1180,7 @@ header div.Rightside nav ul li a {
 .Map{
     top: 0px;
     margin-top: 5%;
-    height: 900px;
+    height: 300px;
     width: 100%;
     grid-column: 1/13;
     display: grid;
@@ -1189,7 +1189,20 @@ header div.Rightside nav ul li a {
 }
 
 .mapouter{
-    grid-column: 8/13;
+    grid-column: 4/10;
+    position: sticky;
+    height: 500px;
+    width: 1200px;
+}
+
+
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 1250px;
+    position: relative;
 }
 
 .Menu {
@@ -1197,7 +1210,7 @@ header div.Rightside nav ul li a {
     visibility: hidden;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 480px) {
 
     .Menu {
         display: contents;
@@ -1208,7 +1221,7 @@ header div.Rightside nav ul li a {
         width: 100%;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(12,1fr);
         grid-template-rows: repeat(8, minmax(50px, auto));
         position: relative;
         grid-gap: 20px;
@@ -2138,6 +2151,263 @@ header div.Rightside nav ul li a {
 
     }
 
+    .Contacts {
+        top: 0px;
+        height: 1900px;
+        width: 100%;
+        grid-column: 1/13;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(65, minmax(10px, 30px));
+        color: #fff;
+        background-color: #04838b;
+    }
+    
+    
+    .Contacts h1 {
+        grid-column: 4/11;
+        grid-row: 1/2;
+        font-size: 80px;
+        margin-left: -10%;
+        text-align: center;
+        background-color: #04838b;
+    }
+    
+    .Phone {
+        grid-row: 10/20;
+        grid-column: 1/13;
+        width: 30%;
+        margin-left: -2%;
+        margin-left: 35%;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .Mail {
+        grid-row: 17/27;
+        grid-column: 1/13;
+        margin-left: 35%;
+        width: 30%;
+        text-align: center;
+    }
+    
+    .Headquarters {
+        grid-row: 24/34;
+        grid-column: 1/13;
+        font-size: 16px;
+        width: 30%;
+        margin-left: 35%;
+        text-align: center;
+    }
+    
+    .secretariat1 {
+        grid-row: 34/44;
+        grid-column: 1/13;
+        width: 30%;
+        margin-left: 35%;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .secretariat2 {
+        grid-row: 44/54;
+        grid-column: 1/13;
+        width: 30%;
+        margin-left: 35%;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .Clock {
+        grid-row: 55/64;
+        grid-column: 1/13;
+        margin-left: 35%;
+        width: 30%;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .accessibility {
+        top: 0px;
+        margin-top: 5%;
+        height: 850px;
+        width: 100%;
+        grid-column: 1/13;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(100, minmax(10px, 20px));
+    }
+    
+    .Title {
+        grid-row: 1/2;
+        grid-column: 1/13;
+        text-align: center;
+        margin-top: -2%;
+    }
+    
+    .train {
+        grid-column: 2/5;
+        width: 50%;
+        margin-left: 7%;
+        grid-row: 7/9;
+    }
+    
+    .TrainText {
+        grid-column: 4/12;
+        grid-row: 4/7;
+        text-align: center;
+    }
+    
+    #Bold {
+        color: #000;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .Car {
+        grid-row: 14/17;
+        grid-column: 10/13;
+        margin-left: 7%;
+        width: 50%;
+    }
+    
+    .CarText {
+        grid-column: 2/10;
+        grid-row: 11/17;
+        text-align: center;
+    }
+    
+    .Zone {
+        grid-row: 20/21;
+        grid-column: 5/10;
+        margin-left: 15%;
+        width: 50%;
+    }
+    
+    .ZoneText {
+        grid-column: 2/12;
+        grid-row: 28/28;
+        text-align: center;
+        margin-left: 2%;
+    }
+    
+    .Bike {
+        grid-column: 10/13;
+        width: 50%;
+        margin-left: 12%;
+        grid-row: 43/43;
+    }
+    
+    .BikeText {
+        grid-column: 2/10;
+        grid-row: 40/43;
+        text-align: center;
+    }
+    
+    .BikeStation {
+        grid-column: 2/5;
+        grid-row: 52/55;
+        width: 50%;
+        margin-left: 12%;
+    }
+    
+    .BikeStationText {
+        grid-column: 4/12;
+        grid-row: 50/55;
+        text-align: center;
+        margin-left: 7%;
+    }
+    
+    
+    .Bus {
+    
+        grid-row: 63/65;
+        grid-column: 10/13;
+        margin-left: 12%;
+        width: 50%;
+    }
+    
+    .BusText {
+        grid-column: 2/10;
+        grid-row: 62/65;
+        text-align: center;
+        margin-left: 2%;
+    
+    }
+    
+    .DeLijn {
+    
+        grid-row: 72/72;
+        grid-column: 2/5;
+        margin-left: 7%;
+        width: 50%;
+    }
+    
+    .DeLijnText {
+        grid-column: 4/12;
+        grid-row: 69/71;
+        text-align: center;
+        margin-left: 2%;
+    
+    }
+    
+    .SharedCar {
+    
+        grid-row: 80/80;
+        grid-column: 10/13;
+        margin-left: 10%;
+        width: 50%;
+    }
+    
+    .SharedCarText {
+        grid-column: 2/10;
+        grid-row: 79/80;
+        text-align: center;
+        margin-left: 2%;
+    
+    }
+    
+    .Wheelchair {
+    
+        grid-row:100/100;
+        grid-column: 2/5;
+        margin-left: 12%;
+        width: 50%;
+    }
+    
+    .WheelchairText {
+        grid-column: 4/12;
+        grid-row: 95/95;
+        text-align: center;
+        margin-left: 2%;
+    
+    }
+    
+    .Map{
+        top: 0px;
+        margin-top: 5%;
+        height: 10px;
+        width: 100%;
+        grid-column: 1/13;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(1, minmax(1px, 1px));
+        margin-top: 80%;
+    }
+    
+    .mapouter{
+        position: relative;
+        text-align: right;
+        height: 500px;
+        width: 480px;
+    }
 
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 300px;
+        width: 480px;
+        position: relative;
+    }
 
 }
