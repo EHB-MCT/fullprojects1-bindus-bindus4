@@ -15,6 +15,7 @@ body {
 }
 
 .mission {
+<<<<<<< HEAD
 	width: 100%;
 	height: 100px;
 	margin-bottom: 80px;
@@ -39,6 +40,35 @@ body {
 	height: 80px;
 	background-color: #16848b;
 	margin-top: -13%;
+=======
+    width: 100%;
+
+
+}
+
+.mission ul {
+    list-style: none;
+    font-size: 35px;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.thread {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    padding-top: 20px;
+
+}
+
+.impact {
+
+    width: 100%;
+    height: 80px;
+    background-color: #16848b;
+    margin-top: -13%;
+    z-index: -30;
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 }
 
 .impact ul {
@@ -49,9 +79,17 @@ body {
 }
 
 .start img {
+<<<<<<< HEAD
 	width: 50%;
 	margin-left: 30%;
 	margin-top: -7%;
+=======
+    width: 60%;
+    margin-left: 18%;
+
+    z-index: -20;
+
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 }
 
 .numbers h1 {
@@ -59,11 +97,21 @@ body {
 }
 
 .numbers {
+<<<<<<< HEAD
 	width: 100%;
 	height: 500px;
 	background-color: #16848b;
 	display: flex;
 	position: relative;
+=======
+    width: 100%;
+    height: 500px;
+    background-color: #16848b;
+    display: flex;
+    position: relative;
+    z-index: -30;
+
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 }
 
 .volunteers {
@@ -145,11 +193,15 @@ body {
 	background-color: #0b3b4b;
 }
 
+<<<<<<< HEAD
 .logo {
 	margin-left: 90px;
 	max-width: 80px;
 	margin-bottom: 70px;
 }
+=======
+
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 
 .partners {
 	width: 50px;
@@ -577,6 +629,7 @@ blockquote {
 	font-size: 20px;
 }
 
+<<<<<<< HEAD
 header {
 	background-color: #b8dcdb;
 	width: 100%;
@@ -613,6 +666,8 @@ header a {
 	width: 25%;
 	margin-left: 35%;
 }
+=======
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 
 #aanmelden {
 	margin-left: 80%;
@@ -757,6 +812,7 @@ caption {
 	background-color: #0b3b4b;
 }
 
+<<<<<<< HEAD
 header {
 	background-color: #b8dcdb;
 	width: 100%;
@@ -810,6 +866,12 @@ header img {
 	width: 25%;
 	margin-left: 35%;
 }
+=======
+
+
+
+
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 
 #aanmelden {
 	margin-left: 80%;
@@ -825,12 +887,22 @@ p {
 }
 
 .greet {
+<<<<<<< HEAD
 	width: 200px;
 	height: 150px;
 
 	position: absolute;
 	margin-top: -9%;
 	margin-left: 6%;
+=======
+    width: 250px;
+    height: 170px;
+
+    position: absolute;
+    margin-top: -9%;
+    margin-left: 6%;
+
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 }
 
 .offer {
@@ -841,8 +913,15 @@ p {
 }
 
 .welcome {
+<<<<<<< HEAD
 	position: relative;
 	background-color: #b8dbdb;
+=======
+    position: relative;
+    background-color: #b8dbdb;
+    z-index: -20;
+
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 }
 
 .greet h1 {
@@ -851,8 +930,14 @@ p {
 }
 
 .greet p {
+<<<<<<< HEAD
 	margin-top: -40%;
 	font-size: 19, 9999px;
+=======
+    margin-top: -25%;
+    font-size: 20px;
+
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 }
 
 .offer {
@@ -861,9 +946,16 @@ p {
 }
 
 .formation {
+<<<<<<< HEAD
 	margin-top: 5%;
 
 	position: relative;
+=======
+    margin-top: 3%;
+    margin-right: 15%;
+    position: relative;
+    z-index: -30;
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
 }
 
 .start h1 {
@@ -1029,5 +1121,38 @@ input[type="submit"]:hover {
 }
 
 .container p {
+<<<<<<< HEAD
 	color: black;
 }
+=======
+
+    color: black;
+}
+
+.start {
+
+    z-index: -30;
+}
+
+@media only screen and (max-width: 724px) {
+
+    .offer {
+        display: block;
+    }
+
+    .rowone,
+    .rowtwo,
+    .rowone div,
+    .rowtwo div {
+        display: block;
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+
+}
+>>>>>>> 55b5ee5d6ff1a1ea0094877fd1426091c9fb885e
