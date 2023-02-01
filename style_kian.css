@@ -16,8 +16,6 @@ body {
 
 .mission {
     width: 100%;
-    height: 100px;
-    margin-bottom: 80px;
 
 
 }
@@ -26,7 +24,7 @@ body {
     list-style: none;
     font-size: 35px;
     margin-left: 2%;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 .thread {
@@ -34,6 +32,7 @@ body {
     height: 500px;
     background-color: white;
     padding-top: 20px;
+
 }
 
 .impact {
@@ -53,9 +52,9 @@ body {
 }
 
 .start img {
-    width: 50%;
-    margin-left: 30%;
-    margin-top: -7%;
+    width: 60%;
+    margin-left: 18%;
+
     z-index: -20;
 
 }
@@ -606,45 +605,7 @@ blockquote {
     font-size: 20px;
 }
 
-/* 
-header {
-    background-color: #b8dcdb;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    vertical-align: middle;
-    padding: 2% 0;
-    z-index: 100;
-}
 
-header a {
-    color: #043c4c;
-    font-size: 25px;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.navbar {
-    background-color: #b8dcdb;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: -5%;
-    border-radius: 0 0 100% 100%;
-    margin-top: -2%;
-    width: 25%;
-    padding-bottom: 2%;
-}
-
-.navbarLogo {
-    background-color: #b8dcdb;
-    width: 25%;
-    margin-left: 35%;
-}
-
-*/
 #aanmelden {
     margin-left: 80%;
     margin-top: -7%;
@@ -835,63 +796,9 @@ caption {
 }
 
 
-/*
 
-header {
-    background-color: #b8dcdb;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    vertical-align: middle;
-    padding: 2% 0;
-}
 
-header div {
-    width: 15%;
-    display: flex;
-    justify-content: center;
-}
 
-header div a {
-    color: #043c4c;
-    font-size: 25px;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-#logo {
-    width: 7%;
-}
-
-header img {
-    background-color: #b7dcdb;
-    padding: 5%;
-    border-radius: 100%;
-    width: 100%;
-}
-
-.navbar {
-    background-color: #b8dcdb;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: -5%;
-    border-radius: 0 0 100% 100%;
-    margin-top: 9%;
-    width: 25%;
-    padding-bottom: 2%;
-}
-
-.navbarLogo {
-    background-color: #b8dcdb;
-    width: 25%;
-    margin-left: 35%;
-}
-
-*/
 
 #aanmelden {
     margin-left: 80%;
@@ -915,7 +822,7 @@ p {
     position: absolute;
     margin-top: -9%;
     margin-left: 6%;
-  
+
 }
 
 .offer {
@@ -943,7 +850,7 @@ p {
 }
 
 .greet p {
-  margin-top: -25%;
+    margin-top: -25%;
     font-size: 20px;
 
 }
@@ -955,8 +862,8 @@ p {
 
 
 .formation {
-    margin-top: 5%;
-
+    margin-top: 3%;
+    margin-right: 15%;
     position: relative;
     z-index: -30;
 }
@@ -1162,3 +1069,7 @@ input[type=submit]:hover {
 
     z-index: -30;
 }
+
+@media only screen and (max-width: 724px) {}
+
+
