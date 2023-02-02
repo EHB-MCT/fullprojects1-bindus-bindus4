@@ -58,7 +58,7 @@
 	background-repeat: no-repeat;
 	background-size: 80%;
 	min-height: 400px;
-	margin-left: 50px;
+
 	background-position: top center;
 	align-self: center;
 	text-align: center;
@@ -71,9 +71,34 @@
 	background-repeat: no-repeat;
 	background-size: 80%;
 	min-height: 400px;
-	margin-right: 50px;
 	background-position: top center;
 	margin-bottom: 10px;
+	align-self: center;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.laboratorium_rol {
+	flex: 1;
+	background-image: url(assets/images/SVG/Asset\ 1.svg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	min-height: 400px;
+	margin-left: 50px;
+	background-position: top center;
+	align-self: center;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.leerfunctie {
+	flex: 1;
+	background-image: url(assets/images/SVG/Asset\ 1.svg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	min-height: 400px;
+	margin-left: 50px;
+	background-position: top center;
 	align-self: center;
 	text-align: center;
 	padding-top: 50px;
