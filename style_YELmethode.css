@@ -58,6 +58,11 @@
 
 .second p {
 	color: black;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+	justify-content: center;
 }
 
 .verbindende_rol {
@@ -107,6 +112,52 @@
 	background-position: top center;
 	align-self: center;
 	text-align: center;
+	padding-top: 50px;
+}
+
+.gemeenschapsvormende_rol {
+	flex: 1;
+	background-image: url(assets/images/SVG/SVG/SVG/Asset\ 5.svg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	min-height: 400px;
+	background-position: top center;
+	padding-top: 50px;
+	align-self: center;
+	text-align: center;
+}
+
+.cultuurfunctie {
+	flex: 1;
+	background-image: url(assets/images/SVG/SVG/SVG/Asset\ 7.svg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	min-height: 400px;
+	background-position: top center;
+	padding-top: 50px;
+	align-self: center;
+	text-align: center;
+}
+
+.maatschappelijkebewegingsfunctie {
+	flex: 1;
+	background-image: url(assets/images/SVG/SVG/SVG/SVG/Asset\ 8.svg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	min-height: 400px;
+	background-position: top center;
+	padding-top: 50px;
+	align-self: center;
+	text-align: center;
+}
+
+.imgbindus {
+	flex: 1;
+	background-image: url(assets/images/Logo.png);
+	background-repeat: no-repeat;
+	background-size: 60%;
+	min-height: 400px;
+	background-position: top center;
 	padding-top: 50px;
 }
 
