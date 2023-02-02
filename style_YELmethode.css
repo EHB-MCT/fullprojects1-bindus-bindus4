@@ -172,3 +172,9 @@
 	display: flex;
 	margin-left: 360px;
 }
+
+#organigram {
+	margin-top: 20px;
+
+	height: 100%;
+}
