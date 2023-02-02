@@ -57,6 +57,7 @@
 	flex: 1;
 	background-image: url(assets/images/SVG/Asset\ 1.svg);
 	background-repeat: no-repeat;
+	background: size 50px;
 }
 
 .verbindende_rol img {
