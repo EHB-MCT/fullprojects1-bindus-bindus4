@@ -7,6 +7,10 @@
 	width: 100%;
 }
 
+.first h1 {
+	color: black;
+}
+
 .hoofdtitle {
 	margin-top: 100px;
 	background-color: #b8dbdc;
@@ -52,13 +56,16 @@
 	width: 100%;
 }
 
+.second p {
+	color: black;
+}
+
 .verbindende_rol {
 	flex: 1;
 	background-image: url(assets/images/SVG/Asset\ 1.svg);
 	background-repeat: no-repeat;
 	background-size: 80%;
 	min-height: 400px;
-
 	background-position: top center;
 	align-self: center;
 	text-align: center;
@@ -80,11 +87,10 @@
 
 .laboratorium_rol {
 	flex: 1;
-	background-image: url(assets/images/SVG/Asset\ 1.svg);
+	background-image: url(assets/images/SVG/SVG/SVG/Asset\ 3.svg);
 	background-repeat: no-repeat;
 	background-size: 80%;
 	min-height: 400px;
-	margin-left: 50px;
 	background-position: top center;
 	align-self: center;
 	text-align: center;
@@ -93,7 +99,7 @@
 
 .leerfunctie {
 	flex: 1;
-	background-image: url(assets/images/SVG/Asset\ 1.svg);
+	background-image: url(assets/images/SVG/SVG/Asset\ 4.svg);
 	background-repeat: no-repeat;
 	background-size: 80%;
 	min-height: 400px;
