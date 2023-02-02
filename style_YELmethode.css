@@ -15,6 +15,7 @@
 	margin-top: 100px;
 	background-color: #b8dbdc;
 	width: 100%;
+	height: 50px;
 	align-self: center;
 	text-align: center;
 }
@@ -60,12 +61,15 @@
 	color: black;
 	padding-left: 100px;
 	padding-right: 100px;
-	margin-left: 30px;
+	margin-left: 50px;
 	margin-right: 20px;
-	padding-top: 30px;
+	padding-top: 50px;
 	justify-content: center;
 }
 
+.second h3 {
+	margin-left: 40px;
+}
 .verbindende_rol {
 	flex: 1;
 	background-image: url(assets/images/SVG/SVG/ASSET1.svg);
