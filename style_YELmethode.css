@@ -53,30 +53,35 @@
 }
 
 .verbindende_rol {
-	display: flex;
 	flex: 1;
 	background-image: url(assets/images/SVG/Asset\ 1.svg);
 	background-repeat: no-repeat;
-	background: size 50px;
+	background-size: 80%;
+	min-height: 400px;
+	margin-left: 50px;
+	background-position: top center;
+	align-self: center;
+	text-align: center;
+	padding-top: 50px;
 }
 
-.verbindende_rol img {
-	height: max-content;
-	width: 45%;
-	height: 50%;
-}
 .kritische_rol {
-	display: flex;
 	flex: 1;
+	background-image: url(assets/images/SVG/SVG/Asset\ 3.svg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	min-height: 400px;
+	margin-right: 50px;
+	background-position: top center;
+	margin-bottom: 10px;
+	align-self: center;
+	text-align: center;
+	padding-top: 50px;
 }
 
 .wrapper img {
 	width: 50%;
 	height: 20%;
 	display: flex;
-	justify-content: center;
-}
-
-#organigram {
-	align-self: center;
+	margin-left: 360px;
 }
