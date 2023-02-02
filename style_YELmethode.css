@@ -7,7 +7,7 @@
 	width: 100%;
 }
 
-.hoofdtitel {
+.hoofdtitle {
 	margin-top: 100px;
 	background-color: #b8dbdc;
 	width: 100%;
@@ -75,4 +75,8 @@
 	height: 20%;
 	display: flex;
 	justify-content: center;
+}
+
+#organigram {
+	align-self: center;
 }
