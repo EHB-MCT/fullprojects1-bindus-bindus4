@@ -321,7 +321,7 @@ blockquote {
   justify-content: center;
   vertical-align: middle;
   padding: 25px;
-  background-color:transparent;
+  background-color: transparent;
   width: 50%;
 }
 
@@ -419,35 +419,33 @@ blockquote {
   font-size: 20px;
 }
 
-
-
 .Logo {
-	top: 0px;
-	height: 75px;
-	width: 15.5%;
-	margin-left: 42.4%;
-	grid-column: 1/13;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(40, minmax(10px, 20px));
-	position: fixed;
-	background-color: #b8dcdb;
-	margin-top: -280px;
-	border-radius: 80%;
-	padding-bottom: 300px;
+  top: 0px;
+  height: 75px;
+  width: 15.5%;
+  margin-left: 42.4%;
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(40, minmax(10px, 20px));
+  position: fixed;
+  background-color: #b8dcdb;
+  margin-top: -280px;
+  border-radius: 80%;
+  padding-bottom: 300px;
 }
 
 .Logo a {
-	grid-column: 6/8;
-	grid-row: 1/6;
+  grid-column: 6/8;
+  grid-row: 1/6;
 }
 
 .Logo a img {
-	grid-column: 6/8;
-	grid-row: 1/1;
-	margin-left: -40%;
-	width: 170%;
-	margin-top: 285px;
+  grid-column: 6/8;
+  grid-row: 1/1;
+  margin-left: -40%;
+  width: 170%;
+  margin-top: 285px;
 }
 #aanmelden {
   margin-left: 80%;
@@ -1637,7 +1635,7 @@ caption {
   width: 100px;
   height: 100px;
   border: 100%;
-} 
+}
 
 footer img {
   margin-left: 30%;
@@ -1846,7 +1844,8 @@ footer {
   border-radius: 5px;
 }
 
-.message p,.message2 p {
+.message p,
+.message2 p {
   color: #c8edec;
   padding: 1%;
   text-align: left;
@@ -1916,42 +1915,42 @@ footer {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: left;
-
 }
 .werking p {
   width: 100%;
 }
-.vacature .heading4, .vacature2 .heading4 {
+.vacature .heading4,
+.vacature2 .heading4 {
   margin-left: 1%;
-  }
+}
 
-  #metSteunVan {
-    background-color: #fff;
-    color: #043c4c;
-    padding: 2%;
-    margin-bottom: -1%;
-    border-radius: 5px 5px 0 0;
-  }
-  #sultan:hover {
-    background-color: orangered;
-    color: gold;
-    border-color: gold;
-  }
-  #sultan:hover p {
-    background-color: orangered;
-    color: gold;
-  }
+#metSteunVan {
+  background-color: #fff;
+  color: #043c4c;
+  padding: 2%;
+  margin-bottom: -1%;
+  border-radius: 5px 5px 0 0;
+}
+#sultan:hover {
+  background-color: orangered;
+  color: gold;
+  border-color: gold;
+}
+#sultan:hover p {
+  background-color: orangered;
+  color: gold;
+}
 
-  #sultan p {
-    color: orange;
-    background-color: orangered;
-  }
-  #sultan {
-    border-style: dashed;
-    border-color: goldenrod;
-    color: orange;
-    background-color: orangered;
-  }
+#sultan p {
+  color: orange;
+  background-color: orangered;
+}
+#sultan {
+  border-style: dashed;
+  border-color: goldenrod;
+  color: orange;
+  background-color: orangered;
+}
 @media only screen and (max-width: 724px) {
   /*============================bindusWorks===============================*/
   .fancyFrame {
@@ -1968,14 +1967,12 @@ footer {
   .infoWrapper {
     width: 100%;
     margin-left: 0;
-
   }
   .bigInfo {
     width: 100%;
     margin-left: 0;
     justify-content: left;
     text-align: left;
-
   }
 
   .requirements {
@@ -1985,7 +1982,7 @@ footer {
     align-items: center;
     vertical-align: middle;
   }
-  .requirements img{
+  .requirements img {
     width: 10%;
     height: 50%;
     padding: 0;
@@ -2002,14 +1999,14 @@ footer {
     flex-wrap: wrap;
     display: none;
   }
-  .heading3{
+  .heading3 {
     margin-left: 5%;
   }
-  .bodyRegular{
+  .bodyRegular {
     text-align: left;
     margin-left: 5%;
   }
-  .bereikWrapper{
+  .bereikWrapper {
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -2022,7 +2019,7 @@ footer {
   #werking a {
     width: 100%;
   }
-  #placeholder{
+  #placeholder {
     width: 0;
     background-color: transparent;
   }
@@ -2030,18 +2027,17 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     vertical-align: middle;
-      padding: 0;
-      width: 100%;
-      max-width: fit-content;
-
+    padding: 0;
+    width: 100%;
+    max-width: fit-content;
   }
-  .smallBereik img{
+  .smallBereik img {
     width: 15%;
-      padding: 0; 
-    }
-  .smallBereik p{
+    padding: 0;
+  }
+  .smallBereik p {
     text-align: center;
     margin-left: 0;
   }
@@ -2062,7 +2058,7 @@ footer {
     color: #04838b;
     border-color: #b7dcdb;
     border-width: 5px;
-    border-style:outset;
+    border-style: outset;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -2074,7 +2070,6 @@ footer {
     margin-top: 2%;
     margin-bottom: 2%;
     text-align: left;
-
   }
   footer {
     display: flex;
@@ -2093,18 +2088,17 @@ footer {
   .partnersWrapper {
     width: 100%;
   }
-  .partnersInnerWrapper{
+  .partnersInnerWrapper {
     display: flex;
     justify-content: center;
     width: 95%;
     background-color: #fff;
   }
 
-  .partnersInnerWrapper img{
+  .partnersInnerWrapper img {
     width: 15%;
     height: 50%;
   }
-
 
   .socialMediaWrapper {
     display: flex;
@@ -2117,13 +2111,13 @@ footer {
     border-radius: 100%;
     width: 100%;
     height: 100%;
-    background-color:transparent;
+    background-color: transparent;
 
     margin: 0%;
     margin-left: 10%;
-      margin-top: 10%;
+    margin-top: 10%;
     display: flex;
-    background-color:transparent;
+    background-color: transparent;
     justify-content: center;
   }
   .socialMedia img {
@@ -2134,8 +2128,8 @@ footer {
     margin-top: 20%;
     width: 50%;
   }
-  
-  .logo{
+
+  .logo {
     width: 50%;
   }
   .contactWrapper {
@@ -2147,12 +2141,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
-  .vacature, .vacature2 {
+  .vacature,
+  .vacature2 {
     width: 90%;
   }
 
-  .vacature .heading4, .vacature2 .heading4 {
-  margin-left: 5%;
+  .vacature .heading4,
+  .vacature2 .heading4 {
+    margin-left: 5%;
   }
   #vacaturesHoofdtitel {
     margin-top: 20%;
@@ -2160,10 +2156,11 @@ footer {
     margin-bottom: 2%;
   }
   /*================================aanbod========================================*/
-  .project,.project2 {
+  .project,
+  .project2 {
     width: 80%;
   }
-  #projectenWrapper{
+  #projectenWrapper {
     margin-top: 20%;
   }
 
@@ -2191,14 +2188,15 @@ footer {
     justify-content: space-evenly;
     align-items: center;
   }
-  
+
   .message img {
     margin-top: 2%;
     width: 50%;
     border-radius: 5px;
   }
-  
-  .message p,.message2 p {
+
+  .message p,
+  .message2 p {
     color: #c8edec;
     padding: 1%;
     text-align: left;
@@ -2248,5 +2246,4 @@ footer {
     margin: 1%;
     width: 100%;
   }
-
 }
