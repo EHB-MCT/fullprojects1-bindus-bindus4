@@ -1,0 +1,37 @@
+.body {
+	width: 100%;
+}
+
+.title {
+	margin-top: 150px;
+	background-color: #b8dbdc;
+	width: 100%;
+	align-self: center;
+	text-align: center;
+}
+
+.introduction {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	padding: 50px;
+	padding-left: 150px;
+	padding-right: 150px;
+	background-color: #0c3b4b;
+	align-self: center;
+	text-align: center;
+	color: white;
+}
+
+.basis {
+	background-color: #b8dbdc;
+	width: 100%;
+	align-self: center;
+	text-align: left;
+}
+
+.second {
+	display: flex;
+	background-color: #b8dbdc;
+	padding: 25px;
+	margin-right: 50px;
+}
