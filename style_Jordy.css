@@ -1024,6 +1024,7 @@ header div.Rightside nav ul li a {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(50, minmax(10px, 20px));
+    
 }
 
 .Title {
